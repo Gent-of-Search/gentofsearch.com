@@ -1,0 +1,42 @@
+title: Gent of Search
+tagline: Senior SEO & Technical Consultancy
+description: >-
+  Senior SEO Strategist and Technical SEO Consultant helping 7-figure companies
+  turn organic search into real business growth.
+author: Adam Gent
+
+# Production URL. Leave baseurl empty for a custom domain / user site.
+url: "https://gentofsearch.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Blog posts live at /blog/<slug>/
+permalink: /blog/:title/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: /feed.xml
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Don't copy these into the built _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .github

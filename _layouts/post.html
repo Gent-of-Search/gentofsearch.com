@@ -1,0 +1,70 @@
+---
+layout: default
+nav_active: blog
+---
+<!-- ===================== POST HEADER ===================== -->
+<header style="padding:60px 0 0;">
+  <div style="width:min(720px,100% - 48px); margin:0 auto;">
+    <nav aria-label="Breadcrumb" style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#8489A2; margin-bottom:26px;">
+      <a href="{{ '/' | relative_url }}" class="crumb-link" style="color:#1A936F; text-decoration:none;">Home</a>
+      <span style="color:#C3C7D4;">/</span>
+      <a href="{{ '/blog/' | relative_url }}" class="crumb-link" style="color:#1A936F; text-decoration:none;">Blog</a>
+      <span style="color:#C3C7D4;">/</span>
+      <span style="color:#8489A2;">{{ page.title }}</span>
+    </nav>
+    <div style="font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#8489A2; margin-bottom:18px;">{% if page.category %}{{ page.category }} &middot; {% endif %}{{ page.date | date: "%B %-d, %Y" }}</div>
+    <h1 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:clamp(34px,4.8vw,50px); line-height:1.08; letter-spacing:-0.02em; color:#2B3052; margin:0 0 20px;">{{ page.title }}</h1>
+    <p style="font-size:20px; line-height:1.55; color:#5A607F; margin:0 0 32px;">{{ page.description }}</p>
+
+    <div style="display:flex; align-items:center; gap:12px; padding:20px 0; border-top:1px solid #E7E9F0; border-bottom:1px solid #E7E9F0;">
+      <span style="width:44px; height:44px; border-radius:50%; overflow:hidden; flex-shrink:0; background:#F3F3F3;"><img src="{{ '/assets/adam-gent-header.png' | relative_url }}" alt="Adam Gent" style="width:100%; height:100%; object-fit:cover; object-position:50% 25%; display:block;"></span>
+      <div style="line-height:1.3;">
+        <div style="font-family:'Inter Tight',sans-serif; font-weight:600; font-size:15px; color:#2B3052;">Adam Gent</div>
+        <div style="font-size:13px; color:#8489A2;">Technical SEO Consultant{% if page.read_time %} &middot; {{ page.read_time }}{% endif %}</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== ARTICLE BODY ===================== -->
+<article class="article" style="padding:48px 0 20px;">
+  <div style="width:min(720px,100% - 48px); margin:0 auto; font-size:18px; line-height:1.75; color:#2B3052;">
+    {{ content }}
+  </div>
+</article>
+
+<!-- ===================== AUTHOR BIO ===================== -->
+<section style="padding:28px 0 12px;">
+  <div style="width:min(720px,100% - 48px); margin:0 auto;">
+    <div style="display:flex; gap:20px; align-items:flex-start; padding:28px; border:1px solid #E7E9F0; border-radius:16px; background:#FAFBFC;">
+      <span style="width:64px; height:64px; border-radius:50%; overflow:hidden; flex-shrink:0; background:#F3F3F3;"><img src="{{ '/assets/adam-gent-header.png' | relative_url }}" alt="Adam Gent" style="width:100%; height:100%; object-fit:cover; object-position:50% 25%; display:block;"></span>
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:#1A936F; margin-bottom:6px;">Author</div>
+        <div style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:19px; color:#2B3052; margin-bottom:6px;">Adam Gent</div>
+        <p style="font-size:15px; line-height:1.65; color:#5A607F; margin:0 0 12px;">Technical SEO Consultant with nearly 15 years helping 7-figure companies turn organic search into revenue. Founder of Gent of Search and co-founder of Indexing Insight.</p>
+        <a href="{{ '/about/' | relative_url }}" style="font-family:'Inter Tight',sans-serif; font-weight:600; font-size:14px; color:#1A936F; text-decoration:none;">More about Adam &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% assign more_posts = site.posts | where_exp: "p", "p.url != page.url" | slice: 0, 3 %}
+{% if more_posts.size > 0 %}
+<!-- ===================== MORE POSTS ===================== -->
+<section style="padding:56px 0 20px;">
+  <div style="width:min(720px,100% - 48px); margin:0 auto;">
+    <h2 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:22px; letter-spacing:-0.01em; color:#2B3052; margin:0 0 8px;">More from the blog</h2>
+    <div style="margin-top:14px;">
+      {% for p in more_posts %}
+      <a href="{{ p.url | relative_url }}" class="more-link" style="display:flex; justify-content:space-between; align-items:baseline; gap:20px; padding:12px 0; text-decoration:none; color:#2B3052;">
+        <span style="font-family:'Inter Tight',sans-serif; font-weight:600; font-size:18px; color:inherit;">{{ p.title }}</span>
+        <span style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.06em; text-transform:uppercase; color:#8489A2; white-space:nowrap;">{{ p.date | date: "%b %-d" }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- ===================== FINAL CTA ===================== -->
+{% include cta.html %}
