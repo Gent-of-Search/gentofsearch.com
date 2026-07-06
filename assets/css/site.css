@@ -1,6 +1,6 @@
 /* ============================================================
    Gent of Search — global stylesheet
-   Brand: navy #2B3052 · green #1A936F · gold #FFC857
+   Brand: navy #2B3052 · green #0F7350 · gold #FFC857
    Type:  Inter Tight (display) · IBM Plex Sans (body) · JetBrains Mono (labels)
    ============================================================ */
 
@@ -34,12 +34,12 @@ img { max-width: 100%; }
 .nav-link:hover {
   background: rgba(255,255,255,0.10);
   color: #FFFFFF;
-  box-shadow: inset 0 -2px 0 #1A936F;
+  box-shadow: inset 0 -2px 0 #0F7350;
 }
 .nav-link.active {
   color: #FFFFFF;
   background: rgba(255,255,255,0.08);
-  box-shadow: inset 0 -2px 0 #1A936F;
+  box-shadow: inset 0 -2px 0 #0F7350;
 }
 .nav-link.active:hover { background: rgba(255,255,255,0.14); }
 
@@ -75,13 +75,13 @@ img { max-width: 100%; }
   transition: transform 0.25s ease, background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
   border: 1px solid rgba(43,48,82,0.14); background: transparent; color: #2B3052;
 }
-.faq-item.open .faq-chev { transform: rotate(45deg); border-color: #1A936F; background: #1A936F; color: #FFFFFF; }
+.faq-item.open .faq-chev { transform: rotate(45deg); border-color: #0F7350; background: #0F7350; color: #FFFFFF; }
 .faq-a { overflow: hidden; transition: max-height 0.35s ease, opacity 0.25s ease; max-height: 0; opacity: 0; }
 .faq-item.open .faq-a { max-height: 400px; opacity: 1; }
 
 /* ---------- Blog listing / more-posts hover ---------- */
 .post-link, .more-link { transition: color 0.16s ease; }
-.post-link:hover, .post-link:hover h2, .more-link:hover, .more-link:hover span { color: #1A936F; }
+.post-link:hover, .post-link:hover h2, .more-link:hover, .more-link:hover span { color: #0F7350; }
 .crumb-link:hover { text-decoration: underline; text-underline-offset: 2px; }
 
 /* ---------- Branded thumbnail placeholder ---------- */
@@ -93,14 +93,14 @@ img { max-width: 100%; }
     linear-gradient(135deg, #E8F5F0, #F3F3F3);
 }
 .thumb-ph .mark {
-  width: 44px; height: 44px; border-radius: 50%; background: #1A936F;
+  width: 44px; height: 44px; border-radius: 50%; background: #0F7350;
   display: grid; place-items: center;
   box-shadow: 0 6px 16px -6px rgba(26,147,111,0.6);
   font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 24px; color: #FFFFFF;
 }
 
 /* ---------- Long-form article body (blog post) ---------- */
-.article a { color:#1A936F; text-decoration:underline; text-underline-offset:2px; text-decoration-thickness:1px; }
+.article a { color:#0F7350; text-decoration:underline; text-underline-offset:2px; text-decoration-thickness:1px; }
 .article a:hover { text-decoration-thickness:2px; }
 .article p { margin:0 0 22px; }
 .article h2 { font-family:'Inter Tight',sans-serif; font-weight:700; font-size:29px; line-height:1.2; letter-spacing:-0.015em; color:#2B3052; margin:46px 0 16px; }
@@ -109,7 +109,7 @@ img { max-width: 100%; }
 .article strong { font-weight:600; color:#2B3052; }
 
 /* ---------- Legal document body (privacy / cookie) ---------- */
-.doc a { color:#1A936F; text-decoration:underline; text-underline-offset:2px; }
+.doc a { color:#0F7350; text-decoration:underline; text-underline-offset:2px; }
 .doc p { margin:0 0 20px; }
 .doc h2 { font-family:'Inter Tight',sans-serif; font-weight:700; font-size:24px; line-height:1.25; letter-spacing:-0.015em; color:#2B3052; margin:44px 0 14px; }
 .doc h3 { font-family:'Inter Tight',sans-serif; font-weight:600; font-size:18px; line-height:1.3; color:#2B3052; margin:28px 0 10px; }
