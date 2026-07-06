@@ -157,9 +157,10 @@ img { max-width: 100%; }
 .nav-mobile-link.active { box-shadow: inset 3px 0 0 #0F7350; padding-left: 12px; }
 
 @media (max-width: 1024px) {
-  .nav-brandtext { display: none; }
-  .nav-links { display: none; }
-  .nav-burger { display: flex; }
+  /* !important overrides the elements' inline display:flex styles */
+  .nav-brandtext { display: none !important; }
+  .nav-links { display: none !important; }
+  .nav-burger { display: flex !important; }
   .nav-mobile-menu.open { display: flex; }
 }
 
