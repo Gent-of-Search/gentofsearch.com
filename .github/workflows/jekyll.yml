@@ -10,10 +10,11 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
+# Queue Pages deployments instead of cancelling; cancelling a run mid-deploy
+# can leave GitHub's Pages deployment stuck and fail the next one.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
