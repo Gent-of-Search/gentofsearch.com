@@ -22,4 +22,24 @@
       });
     });
   });
+
+  // Mobile burger menu toggle.
+  var burger = document.querySelector('.nav-burger');
+  var mobileMenu = document.getElementById('nav-mobile-menu');
+  if (burger && mobileMenu) {
+    var setOpen = function (open) {
+      mobileMenu.classList.toggle('open', open);
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    };
+    burger.addEventListener('click', function () {
+      setOpen(!mobileMenu.classList.contains('open'));
+    });
+    mobileMenu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () { setOpen(false); });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') setOpen(false);
+    });
+  }
 })();
