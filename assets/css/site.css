@@ -164,14 +164,51 @@ img { max-width: 100%; }
   .nav-mobile-menu.open { display: flex; }
 }
 
+/* ---------- Nav: Services dropdown (desktop) ---------- */
+.gos-nav-drop { position: relative; }
+.gos-nav-menu {
+  position: absolute; top: 100%; left: 0; padding-top: 10px; z-index: 60;
+  opacity: 0; visibility: hidden; transform: translateY(6px);
+  transition: opacity .18s ease, transform .18s ease, visibility .18s;
+  pointer-events: none;
+}
+.gos-nav-drop:hover .gos-nav-menu,
+.gos-nav-drop:focus-within .gos-nav-menu {
+  opacity: 1; visibility: visible; transform: translateY(0); pointer-events: auto;
+}
+.gos-drop-panel {
+  background: #FFFFFF; border: 1px solid rgba(43,48,82,0.10); border-radius: 12px;
+  box-shadow: 0 18px 44px -16px rgba(43,48,82,0.4); padding: 8px; min-width: 220px;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+}
+.gos-drop-link {
+  display: block; padding: 10px 14px; border-radius: 8px; color: #2B3052;
+  text-decoration: none; font-size: 15px; font-weight: 500; white-space: nowrap;
+  transition: background 0.15s ease;
+}
+.gos-drop-link:hover { background: #F3F3F3; }
+.gos-drop-link.active { background: #E8F5F0; color: #0F7350; }
+
+/* Mobile Services group inside the burger menu */
+.nav-mobile-label {
+  color: rgba(255,255,255,0.45); font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 14px 4px 4px;
+}
+.nav-mobile-sub { padding-left: 18px; font-size: 16px; }
+
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
   .grid-2 { grid-template-columns: 1fr !important; }
   .pricing-grid { grid-template-columns: repeat(2, 1fr) !important; }
   .testimonial-grid { grid-template-columns: 1fr !important; }
+  /* service-page fixed grids collapse */
+  .gos-g2 { grid-template-columns: 1fr !important; }
+  .gos-g3, .gos-g4 { grid-template-columns: repeat(2, 1fr) !important; }
 }
 @media (max-width: 560px) {
   .pricing-grid { grid-template-columns: 1fr !important; }
   .blog-row { flex-direction: column-reverse !important; }
   .blog-row .blog-thumb { width: 100% !important; height: 180px !important; }
+  .gos-g3, .gos-g4 { grid-template-columns: 1fr !important; }
 }
