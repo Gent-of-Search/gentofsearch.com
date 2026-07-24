@@ -11,9 +11,9 @@
     </a>
 
     <div class="nav-links" style="display:flex; align-items:center; gap:6px; font-size:18px;">
-      <a href="{{ '/pricing/' | relative_url }}" class="nav-link{% if page.nav_active == 'pricing' %} active{% endif %}">Pricing</a>
       <a href="{{ '/blog/' | relative_url }}" class="nav-link{% if page.nav_active == 'blog' %} active{% endif %}">Blog</a>
       <a href="{{ '/about/' | relative_url }}" class="nav-link{% if page.nav_active == 'about' %} active{% endif %}">About</a>
+      <a href="{{ '/contact/' | relative_url }}" class="nav-link{% if page.nav_active == 'contact' %} active{% endif %}">Contact</a>
     </div>
 
     <button class="nav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-mobile-menu">
@@ -24,8 +24,8 @@
   </div>
 
   <div class="nav-mobile-menu" id="nav-mobile-menu">
-    <a href="{{ '/pricing/' | relative_url }}" class="nav-mobile-link{% if page.nav_active == 'pricing' %} active{% endif %}">Pricing</a>
     <a href="{{ '/blog/' | relative_url }}" class="nav-mobile-link{% if page.nav_active == 'blog' %} active{% endif %}">Blog</a>
     <a href="{{ '/about/' | relative_url }}" class="nav-mobile-link{% if page.nav_active == 'about' %} active{% endif %}">About</a>
+    <a href="{{ '/contact/' | relative_url }}" class="nav-mobile-link{% if page.nav_active == 'contact' %} active{% endif %}">Contact</a>
   </div>
 </nav>
