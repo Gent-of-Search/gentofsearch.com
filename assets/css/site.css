@@ -45,8 +45,8 @@ img { max-width: 100%; }
 
 /* Logo blinking caret (search-prompt cursor beside the "G") */
 .gos-caret {
-  width: 2.5px; height: 15px; border-radius: 1.5px;
-  background: #FFFFFF;
+  width: 2.5px; height: 14px; border-radius: 1.5px;
+  background: #FFC857;
   animation: gosBlink 1.2s steps(1) infinite;
 }
 @keyframes gosBlink { 50% { opacity: 0.15; } }
