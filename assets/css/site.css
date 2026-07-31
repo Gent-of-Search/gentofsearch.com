@@ -52,6 +52,16 @@ img { max-width: 100%; }
 @keyframes gosBlink { 50% { opacity: 0.15; } }
 @media (prefers-reduced-motion: reduce) { .gos-caret { animation: none; } }
 
+/* Smiley emoji in the hero — gentle wobble */
+.gos-emoji { display: inline-block; transform-origin: center 60%; animation: gosWobble 2.8s ease-in-out infinite; }
+@keyframes gosWobble {
+  0%, 55%, 100% { transform: rotate(0deg); }
+  12% { transform: rotate(-11deg); }
+  26% { transform: rotate(11deg); }
+  40% { transform: rotate(-6deg); }
+}
+@media (prefers-reduced-motion: reduce) { .gos-emoji { animation: none; } }
+
 /* ---------- Logo marquee ---------- */
 .marquee { overflow: hidden;
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
