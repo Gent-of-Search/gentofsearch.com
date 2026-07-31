@@ -43,6 +43,15 @@ img { max-width: 100%; }
 }
 .nav-link.active:hover { background: rgba(255,255,255,0.14); }
 
+/* Logo blinking caret (search-prompt cursor beside the "G") */
+.gos-caret {
+  width: 2.5px; height: 15px; border-radius: 1.5px;
+  background: #FFFFFF;
+  animation: gosBlink 1.2s steps(1) infinite;
+}
+@keyframes gosBlink { 50% { opacity: 0.15; } }
+@media (prefers-reduced-motion: reduce) { .gos-caret { animation: none; } }
+
 /* ---------- Logo marquee ---------- */
 .marquee { overflow: hidden;
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
