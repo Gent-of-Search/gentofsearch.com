@@ -72,7 +72,7 @@ img { max-width: 100%; }
   gap: 62px;
   align-items: center;
   width: max-content;
-  animation: gosMarquee 66s linear infinite;
+  animation: gosMarquee 110s linear infinite;
 }
 .marquee:hover .marquee-track { animation-play-state: paused; }
 @media (prefers-reduced-motion: reduce) {
