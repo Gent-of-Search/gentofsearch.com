@@ -236,6 +236,6 @@ img { max-width: 100%; }
    the hero + logo row fill the viewport (minus the ~71px nav). Hero grows to
    fill and stays vertically centred; logos sit at the bottom of the first view. */
 @media (min-width: 1024px) {
-  .gos-fold { min-height: calc(100vh - 71px); min-height: calc(100svh - 71px); display: flex; flex-direction: column; }
+  .gos-fold { min-height: calc(100vh - 59px); min-height: calc(100svh - 59px); display: flex; flex-direction: column; }
   .gos-fold > section:first-child { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; }
 }
