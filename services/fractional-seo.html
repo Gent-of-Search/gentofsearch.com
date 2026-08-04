@@ -94,24 +94,27 @@ service: fractional
     </div>
   </section>
 
-  <!-- ===================== ABOUT ===================== -->
-  <section style="padding:96px 0; background:#2B3052;">
-    <div style="width:min(1000px,100% - 48px); margin:0 auto; background:#FFFFFF; border:1px solid rgba(43,48,82,0.10); border-radius:22px; padding:50px;">
-      <div class="grid-2" style="display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;">
-        <div>
-          <h2 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:clamp(28px,3.2vw,38px); line-height:1.1; letter-spacing:-0.02em; color:#2B3052; margin:8px 0 16px;">Meet Adam, Your Next <span style="color:#0F7350;">Senior SEO Consultant.</span></h2>
-          <p style="color:#2B3052; font-size:18px; line-height:1.7; margin:0 0 18px;">Hi I'm Adam. An Independent SEO Consultant.</p>
-          <p style="color:#2B3052; font-size:18px; line-height:1.7; margin:0 0 18px;">For nearly 15 years, I've helped companies see results from organic search by using technical SEO, organic search strategy, and getting things done.</p>
-          <p style="color:#2B3052; font-size:18px; line-height:1.7; margin:0 0 18px;">I don't just run a consultancy. I test, build and teach.</p>
-          <p style="color:#2B3052; font-size:18px; line-height:1.7; margin:0;">I've built side projects including: <a href="https://web.archive.org/web/20260212155131/https://theseosprint.com/" target="_blank" rel="noopener" style="color:#0F7350; font-weight:600; text-decoration:underline; text-underline-offset:2px;">The SEO Sprint</a>, <a href="https://adamgent.gumroad.com/l/seo-case-studies-database" target="_blank" rel="noopener" style="color:#0F7350; font-weight:600; text-decoration:underline; text-underline-offset:2px;">SEO Case Study Database</a>, and the co-founder of <a href="https://indexinginsight.com/" target="_blank" rel="noopener" style="color:#0F7350; font-weight:600; text-decoration:underline; text-underline-offset:2px;">Indexing Insight</a>.</p>
-          <a href="{{ '/about/' | relative_url }}" style="display:inline-flex; align-items:center; gap:8px; margin-top:24px; font-family:'Inter Tight',sans-serif; font-weight:600; font-size:15px; color:#0F7350; text-decoration:none;">Learn more<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+  <!-- ===================== CASE STUDY + CHART ===================== -->
+  <section style="padding:82px 0; background:#FFFFFF;">
+    <div style="width:min(1180px,100% - 48px); margin:0 auto;">
+      <div style="max-width:900px; margin:0 auto; padding:50px; background:#2B3052; border-radius:20px; position:relative; box-shadow:0 30px 60px -20px rgba(43,48,82,0.25);">
+        <div style="position:absolute; top:0; left:50px; right:50px; height:1px; background:linear-gradient(90deg, transparent, #0F7350, transparent); opacity:0.7;"></div>
+        <span style="display:inline-block; font-family:'JetBrains Mono',monospace; font-size:11px; color:#FFC857; letter-spacing:0.15em; text-transform:uppercase; margin-bottom:18px;">B2B SAAS CASE STUDY</span>
+        <p style="font-family:'IBM Plex Sans',sans-serif; font-size:clamp(17px,1.8vw,19px); line-height:1.6; color:#FFFFFF; margin:0 0 14px;">“Adam has the rare ability to translate SEO from a “marketing tactic” into a clear business driver — aligning content, intent, and pipeline impact. And he does so without ego, always focused on outcomes rather than credit.</p>
+        <p style="font-size:clamp(17px,1.8vw,19px); line-height:1.6; color:#FFFFFF; margin:0 0 14px;">If you're looking for someone who can own SEO/GEO strategically, operate independently, and manage strong stakeholders with composure and clarity, Adam is exactly that partner.</p>
+        <p style="font-size:clamp(17px,1.8vw,19px); line-height:1.6; color:#FFFFFF; margin:0 0 24px;">Grateful for the impact he's had on Cognigy's growth.”</p>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <img src="{{ '/testimonial-avatars/ana-maria-banta.webp' | relative_url }}" alt="Ana-Maria Banta" style="width:44px; height:44px; border-radius:50%; object-fit:cover; flex-shrink:0; border:2px solid rgba(255,255,255,0.12);">
+          <div>
+            <div style="color:#FFFFFF; font-weight:600; font-size:15px;">Ana-Maria Banta</div>
+            <div style="color:rgba(255,255,255,0.65); font-size:14px;">VP of Marketing, Cognigy · <span style="color:#FFC857; letter-spacing:2px;">★★★★★</span></div>
+          </div>
         </div>
-        <div style="display:grid; grid-template-columns:1fr 1fr; grid-template-rows:206px 206px; gap:16px;">
-          <img width="900" height="597" loading="lazy" src="{{ '/assets/adam-gent-brightonseo-2019.webp' | relative_url }}" alt="Adam Gent speaking at BrightonSEO 2019 on pagination and infinite scroll" style="width:100%; height:100%; object-fit:cover; object-position:60% 50%; border-radius:14px; border:1px solid rgba(43,48,82,0.10); display:block;">
-          <img width="600" height="900" loading="lazy" src="{{ '/assets/adam-gent-podcast.webp' | relative_url }}" alt="Adam Gent recording an SEOCast podcast interview" style="width:100%; height:100%; object-fit:cover; object-position:50% 30%; border-radius:14px; border:1px solid rgba(43,48,82,0.10); display:block;">
-          <img width="600" height="400" loading="lazy" src="{{ '/assets/adam-gent-eu-search-awards.webp' | relative_url }}" alt="Adam Gent on stage as Branded3 wins at the European Search Awards" style="width:100%; height:100%; object-fit:cover; object-position:50% 55%; border-radius:14px; border:1px solid rgba(43,48,82,0.10); display:block;">
-          <img width="750" height="1000" loading="lazy" src="{{ '/assets/adam-gent-brightonseo.webp' | relative_url }}" alt="Adam Gent presenting on the Lumar stage at BrightonSEO" style="width:100%; height:100%; object-fit:cover; object-position:55% 45%; border-radius:14px; border:1px solid rgba(43,48,82,0.10); display:block;">
+        <div style="height:1px; background:rgba(255,255,255,0.08); margin:32px 0 24px;"></div>
+        <div style="background:#1C1C1C; border:1px solid rgba(255,255,255,0.07); border-radius:12px; padding:18px; overflow:hidden;">
+          <img src="{{ '/assets/performance-chart-2.webp' | relative_url }}" alt="Average branded vs non-branded organic traffic, showing non-branded traffic doubling after hiring Gent of Search." style="display:block; width:100%; height:auto; border-radius:6px;">
         </div>
+        <div style="text-align:center; font-size:12px; color:rgba(255,255,255,0.55); margin-top:14px; font-family:'JetBrains Mono',monospace;">Source: Ahrefs</div>
       </div>
     </div>
   </section>
@@ -135,27 +138,24 @@ service: fractional
     </div>
   </section>
 
-  <!-- ===================== CASE STUDY + CHART ===================== -->
-  <section style="padding:82px 0; background:#FFFFFF;">
-    <div style="width:min(1180px,100% - 48px); margin:0 auto;">
-      <div style="max-width:900px; margin:0 auto; padding:50px; background:#2B3052; border-radius:20px; position:relative; box-shadow:0 30px 60px -20px rgba(43,48,82,0.25);">
-        <div style="position:absolute; top:0; left:50px; right:50px; height:1px; background:linear-gradient(90deg, transparent, #0F7350, transparent); opacity:0.7;"></div>
-        <span style="display:inline-block; font-family:'JetBrains Mono',monospace; font-size:11px; color:#FFC857; letter-spacing:0.15em; text-transform:uppercase; margin-bottom:18px;">B2B SAAS CASE STUDY</span>
-        <p style="font-family:'IBM Plex Sans',sans-serif; font-size:clamp(17px,1.8vw,19px); line-height:1.6; color:#FFFFFF; margin:0 0 14px;">“Adam has the rare ability to translate SEO from a “marketing tactic” into a clear business driver — aligning content, intent, and pipeline impact. And he does so without ego, always focused on outcomes rather than credit.</p>
-        <p style="font-size:clamp(17px,1.8vw,19px); line-height:1.6; color:#FFFFFF; margin:0 0 14px;">If you're looking for someone who can own SEO/GEO strategically, operate independently, and manage strong stakeholders with composure and clarity, Adam is exactly that partner.</p>
-        <p style="font-size:clamp(17px,1.8vw,19px); line-height:1.6; color:#FFFFFF; margin:0 0 24px;">Grateful for the impact he's had on Cognigy's growth.”</p>
-        <div style="display:flex; align-items:center; gap:12px;">
-          <img src="{{ '/testimonial-avatars/ana-maria-banta.webp' | relative_url }}" alt="Ana-Maria Banta" style="width:44px; height:44px; border-radius:50%; object-fit:cover; flex-shrink:0; border:2px solid rgba(255,255,255,0.12);">
-          <div>
-            <div style="color:#FFFFFF; font-weight:600; font-size:15px;">Ana-Maria Banta</div>
-            <div style="color:rgba(255,255,255,0.65); font-size:14px;">VP of Marketing, Cognigy · <span style="color:#FFC857; letter-spacing:2px;">★★★★★</span></div>
-          </div>
+  <!-- ===================== ABOUT ===================== -->
+  <section style="padding:96px 0; background:#2B3052;">
+    <div style="width:min(1000px,100% - 48px); margin:0 auto; background:#FFFFFF; border:1px solid rgba(43,48,82,0.10); border-radius:22px; padding:50px;">
+      <div class="grid-2" style="display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;">
+        <div>
+          <h2 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:clamp(28px,3.2vw,38px); line-height:1.1; letter-spacing:-0.02em; color:#2B3052; margin:8px 0 16px;">Meet Adam, Your Next <span style="color:#0F7350;">Senior SEO Consultant.</span></h2>
+          <p style="color:#2B3052; font-size:18px; line-height:1.7; margin:0 0 18px;">Hi I'm Adam. An Independent SEO Consultant.</p>
+          <p style="color:#2B3052; font-size:18px; line-height:1.7; margin:0 0 18px;">For nearly 15 years, I've helped companies see results from organic search by using technical SEO, organic search strategy, and getting things done.</p>
+          <p style="color:#2B3052; font-size:18px; line-height:1.7; margin:0 0 18px;">I don't just run a consultancy. I test, build and teach.</p>
+          <p style="color:#2B3052; font-size:18px; line-height:1.7; margin:0;">I've built side projects including: <a href="https://web.archive.org/web/20260212155131/https://theseosprint.com/" target="_blank" rel="noopener" style="color:#0F7350; font-weight:600; text-decoration:underline; text-underline-offset:2px;">The SEO Sprint</a>, <a href="https://adamgent.gumroad.com/l/seo-case-studies-database" target="_blank" rel="noopener" style="color:#0F7350; font-weight:600; text-decoration:underline; text-underline-offset:2px;">SEO Case Study Database</a>, and the co-founder of <a href="https://indexinginsight.com/" target="_blank" rel="noopener" style="color:#0F7350; font-weight:600; text-decoration:underline; text-underline-offset:2px;">Indexing Insight</a>.</p>
+          <a href="{{ '/about/' | relative_url }}" style="display:inline-flex; align-items:center; gap:8px; margin-top:24px; font-family:'Inter Tight',sans-serif; font-weight:600; font-size:15px; color:#0F7350; text-decoration:none;">Learn more<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
         </div>
-        <div style="height:1px; background:rgba(255,255,255,0.08); margin:32px 0 24px;"></div>
-        <div style="background:#1C1C1C; border:1px solid rgba(255,255,255,0.07); border-radius:12px; padding:18px; overflow:hidden;">
-          <img src="{{ '/assets/performance-chart-2.webp' | relative_url }}" alt="Average branded vs non-branded organic traffic, showing non-branded traffic doubling after hiring Gent of Search." style="display:block; width:100%; height:auto; border-radius:6px;">
+        <div style="display:grid; grid-template-columns:1fr 1fr; grid-template-rows:206px 206px; gap:16px;">
+          <img width="900" height="597" loading="lazy" src="{{ '/assets/adam-gent-brightonseo-2019.webp' | relative_url }}" alt="Adam Gent speaking at BrightonSEO 2019 on pagination and infinite scroll" style="width:100%; height:100%; object-fit:cover; object-position:60% 50%; border-radius:14px; border:1px solid rgba(43,48,82,0.10); display:block;">
+          <img width="600" height="900" loading="lazy" src="{{ '/assets/adam-gent-podcast.webp' | relative_url }}" alt="Adam Gent recording an SEOCast podcast interview" style="width:100%; height:100%; object-fit:cover; object-position:50% 30%; border-radius:14px; border:1px solid rgba(43,48,82,0.10); display:block;">
+          <img width="600" height="400" loading="lazy" src="{{ '/assets/adam-gent-eu-search-awards.webp' | relative_url }}" alt="Adam Gent on stage as Branded3 wins at the European Search Awards" style="width:100%; height:100%; object-fit:cover; object-position:50% 55%; border-radius:14px; border:1px solid rgba(43,48,82,0.10); display:block;">
+          <img width="750" height="1000" loading="lazy" src="{{ '/assets/adam-gent-brightonseo.webp' | relative_url }}" alt="Adam Gent presenting on the Lumar stage at BrightonSEO" style="width:100%; height:100%; object-fit:cover; object-position:55% 45%; border-radius:14px; border:1px solid rgba(43,48,82,0.10); display:block;">
         </div>
-        <div style="text-align:center; font-size:12px; color:rgba(255,255,255,0.55); margin-top:14px; font-family:'JetBrains Mono',monospace;">Source: Ahrefs</div>
       </div>
     </div>
   </section>
