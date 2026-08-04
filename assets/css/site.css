@@ -235,7 +235,7 @@ img { max-width: 100%; }
 /* Landing fold: keep the testimonial strip below the fold on desktop by making
    the hero + logo row fill the viewport (minus the ~71px nav). Hero grows to
    fill and stays vertically centred; logos sit at the bottom of the first view. */
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-height: 1200px) {
   .gos-fold { min-height: calc(100vh - 59px); min-height: calc(100svh - 59px); display: flex; flex-direction: column; }
   .gos-fold > section:first-child { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; }
 }
