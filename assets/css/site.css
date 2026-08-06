@@ -232,6 +232,14 @@ img { max-width: 100%; }
   .gos-g3, .gos-g4 { grid-template-columns: 1fr !important; }
 }
 
+/* ---------- Talks feed ---------- */
+.gos-talk-card:hover { border-color: rgba(15,115,80,0.45) !important; box-shadow: 0 14px 34px -22px rgba(43,48,82,0.35); transform: translateY(-2px); }
+@media (max-width: 640px) {
+  .gos-talk-card { grid-template-columns: 1fr !important; gap: 16px !important; }
+  .gos-talk-card .gos-talk-meta { border-right: none !important; padding-right: 0 !important; border-bottom: 1px solid rgba(43,48,82,0.10); padding-bottom: 16px; }
+  .gos-talk-card .gos-talk-cta { justify-self: start; }
+}
+
 /* Landing fold: keep the testimonial strip below the fold on desktop by making
    the hero + logo row fill the viewport (minus the ~71px nav). Hero grows to
    fill and stays vertically centred; logos sit at the bottom of the first view. */

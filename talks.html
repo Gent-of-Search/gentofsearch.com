@@ -1,0 +1,111 @@
+---
+layout: default
+title: "Talks — Podcasts & Conferences"
+description: "A collection of podcasts, webinars and conferences Adam Gent has spoken at over the years, covering indexing, technical SEO and AI search."
+permalink: /talks/
+nav_active: talks
+talks:
+  - title: "Indexing, Crawl Budget & AI Search Visibility"
+    show: "Search with Sean"
+    url: "https://youtu.be/JMMe8rhzkG0"
+    date: 2026-06-13
+    kind: Podcast
+    tags: [Indexing, Crawl budget, AI search]
+  - title: "How Google's index actually works and why indexing matters"
+    show: "Search with Candor"
+    url: "https://youtu.be/f_3F4EZT2ao"
+    date: 2026-05-18
+    kind: Podcast
+    tags: [Indexing, Google Search]
+  - title: "How Google indexing works"
+    show: "International Web Mastery"
+    url: "https://youtu.be/pm1UtKeQYnU"
+    date: 2025-11-19
+    kind: Podcast
+    tags: [Indexing]
+  - title: "How Google's Search Index Works"
+    show: "BrightonSEO"
+    url: "https://www.linkedin.com/posts/adamagent_how-googles-search-index-works-activity-7387367271767175168-BoQD"
+    date: 2025-10-23
+    kind: Conference
+    tags: [Indexing, Google Search]
+    link_label: View
+  - title: "Google Indexing Secrets with Adam Gent"
+    show: "SEO Unplugged"
+    url: "https://youtu.be/1NqTFynM6Dc"
+    date: 2024-11-12
+    kind: Podcast
+    tags: [Indexing, Technical SEO]
+  - title: "3 tips to help SEOs align with their developers"
+    show: "SimilarWeb"
+    url: "https://youtu.be/ljgp7JwienQ"
+    date: 2024-02-02
+    kind: Podcast
+    tags: [SEO delivery, Working with devs]
+  - title: "Navigating SEO and Product Management"
+    show: "WO Strategies LLC"
+    url: "https://youtu.be/ovbPBsa6K2g"
+    date: 2023-12-20
+    kind: Podcast
+    tags: [SEO product ownership]
+  - title: "How writing can help unlock SEO delivery superpowers"
+    show: "Majestic SEO"
+    url: "https://youtu.be/Ul3j32eHSC8"
+    date: 2023-11-22
+    kind: Podcast
+    tags: [SEO delivery, Writing]
+  - title: "Pagination and Query Strings - What Should You Do?"
+    show: "Authoritas"
+    url: "https://youtu.be/OPWLL9Q50aM"
+    date: 2020-06-08
+    kind: Webinar
+    tags: [Pagination, Technical SEO]
+  - title: "The State Of Pagination And Infinite Scroll On The Web"
+    show: "BrightonSEO"
+    url: "https://youtu.be/C1OHoGgpjCo"
+    date: 2019-07-15
+    kind: Conference
+    tags: [Pagination, Infinite scroll]
+---
+<!-- ===================== HERO ===================== -->
+<section style="position:relative; overflow:hidden; background:radial-gradient(900px 500px at 50% -10%, rgba(26,147,111,0.08), transparent 60%), #FFFFFF;">
+  <div aria-hidden="true" style="position:absolute; inset:0; background-image:linear-gradient(rgba(43,48,82,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(43,48,82,0.04) 1px, transparent 1px); background-size:60px 60px; -webkit-mask-image:radial-gradient(ellipse at center, black 35%, transparent 78%); mask-image:radial-gradient(ellipse at center, black 35%, transparent 78%); pointer-events:none;"></div>
+  <div style="position:relative; width:min(1180px,100% - 48px); margin:0 auto; padding:78px 0 56px; text-align:center;">
+    <h1 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:clamp(38px,4.6vw,60px); line-height:1.06; letter-spacing:-0.035em; color:#2B3052; margin:0 auto 22px; max-width:820px; text-wrap:pretty;">Podcasts &amp; <span style="color:#0F7350;">Conferences.</span></h1>
+    <p style="font-size:clamp(17px,1.5vw,19px); color:#5A607F; max-width:600px; margin:0 auto; line-height:1.75;">A collection of podcasts, webinars and conferences I've spoken at over the years. Get in touch if you want me to talk at a conference.</p>
+  </div>
+</section>
+
+<!-- ===================== FEED ===================== -->
+<section id="feed" style="padding:72px 0 96px; background:#F3F3F3;">
+  <div style="width:min(1180px,100% - 48px); margin:0 auto;">
+    <div style="max-width:960px; margin:0 auto; display:flex; flex-direction:column; gap:16px;">
+      {% assign talks = page.talks | sort: 'date' | reverse %}
+      {% for item in talks %}
+        {% case item.kind %}
+          {% when 'Conference' %}{% assign kindStyle = 'background:#2B3052; color:#FFFFFF; border:1px solid #2B3052;' %}
+          {% when 'Webinar' %}{% assign kindStyle = 'background:#FFF4D9; color:#8A6410; border:1px solid rgba(255,200,87,0.7);' %}
+          {% else %}{% assign kindStyle = 'background:#E8F5F0; color:#0F7350; border:1px solid rgba(15,115,80,0.35);' %}
+        {% endcase %}
+      <a href="{{ item.url }}" target="_blank" rel="noopener" class="gos-talk-card" style="display:grid; grid-template-columns:150px 1fr auto; gap:28px; align-items:center; background:#FFFFFF; border:1px solid rgba(43,48,82,0.10); border-radius:14px; padding:24px 26px; text-decoration:none; color:inherit; transition:border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;">
+        <div class="gos-talk-meta" style="display:flex; flex-direction:column; gap:10px; border-right:1px solid rgba(43,48,82,0.10); padding-right:24px;">
+          <span style="display:inline-flex; align-self:flex-start; padding:4px 10px; border-radius:999px; font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:0.08em; text-transform:uppercase; {{ kindStyle }}">{{ item.kind }}</span>
+          <span style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:17px; letter-spacing:-0.015em; color:#2B3052;">{{ item.date | date: "%-d %b %Y" }}</span>
+          {% if item.show %}<span style="font-size:13px; color:#5A607F;">{{ item.show }}</span>{% endif %}
+        </div>
+        <div style="min-width:0;">
+          <div style="font-family:'Inter Tight',sans-serif; font-weight:600; font-size:19px; line-height:1.35; letter-spacing:-0.015em; color:#2B3052; margin-bottom:10px; text-wrap:pretty;">{{ item.title }}</div>
+          {% if item.tags and item.tags.size > 0 %}
+          <div style="display:flex; flex-wrap:wrap; gap:8px;">
+            {% for tag in item.tags %}
+            <span style="display:inline-flex; padding:4px 10px; background:#E8F5F0; border:1px solid rgba(15,115,80,0.20); border-radius:999px; font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:0.04em; text-transform:uppercase; color:#0F7350;">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        <span class="gos-talk-cta" style="display:inline-flex; align-items:center; gap:7px; font-family:'Inter Tight',sans-serif; font-weight:600; font-size:14px; color:#0F7350; white-space:nowrap;">{{ item.link_label | default: "Watch" }}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

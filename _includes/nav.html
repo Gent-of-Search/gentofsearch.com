@@ -22,7 +22,15 @@
           </div>
         </div>
       </div>
-      <a href="{{ '/blog/' | relative_url }}" class="nav-link{% if page.nav_active == 'blog' %} active{% endif %}">Blog</a>
+      <div class="gos-nav-drop">
+        <a href="{{ '/blog/' | relative_url }}" class="nav-link{% if page.nav_active == 'blog' or page.nav_active == 'talks' %} active{% endif %}" style="display:inline-flex; align-items:center; gap:5px;">Resources<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-top:1px;"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+        <div class="gos-nav-menu">
+          <div class="gos-drop-panel">
+            <a href="{{ '/blog/' | relative_url }}" class="gos-drop-link{% if page.nav_active == 'blog' %} active{% endif %}">Blog</a>
+            <a href="{{ '/talks/' | relative_url }}" class="gos-drop-link{% if page.nav_active == 'talks' %} active{% endif %}">Talks</a>
+          </div>
+        </div>
+      </div>
       <a href="{{ '/about/' | relative_url }}" class="nav-link{% if page.nav_active == 'about' %} active{% endif %}">About</a>
       <a href="{{ '/contact/' | relative_url }}" class="nav-link{% if page.nav_active == 'contact' %} active{% endif %}">Contact</a>
     </div>
@@ -40,7 +48,9 @@
     <a href="{{ '/services/strategy/' | relative_url }}" class="nav-mobile-link nav-mobile-sub{% if page.service == 'strategy' %} active{% endif %}">SEO Strategy</a>
     <a href="{{ '/services/consultancy/' | relative_url }}" class="nav-mobile-link nav-mobile-sub{% if page.service == 'consultancy' %} active{% endif %}">SEO Consultancy</a>
     <a href="{{ '/services/fractional-seo/' | relative_url }}" class="nav-mobile-link nav-mobile-sub{% if page.service == 'fractional' %} active{% endif %}">Fractional SEO Manager</a>
-    <a href="{{ '/blog/' | relative_url }}" class="nav-mobile-link{% if page.nav_active == 'blog' %} active{% endif %}">Blog</a>
+    <span class="nav-mobile-label">Resources</span>
+    <a href="{{ '/blog/' | relative_url }}" class="nav-mobile-link nav-mobile-sub{% if page.nav_active == 'blog' %} active{% endif %}">Blog</a>
+    <a href="{{ '/talks/' | relative_url }}" class="nav-mobile-link nav-mobile-sub{% if page.nav_active == 'talks' %} active{% endif %}">Talks</a>
     <a href="{{ '/about/' | relative_url }}" class="nav-mobile-link{% if page.nav_active == 'about' %} active{% endif %}">About</a>
     <a href="{{ '/contact/' | relative_url }}" class="nav-mobile-link{% if page.nav_active == 'contact' %} active{% endif %}">Contact</a>
   </div>
