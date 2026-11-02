@@ -13,8 +13,8 @@ stats:
     label: "Indexed pages in Google"
   - value: "67%"
     label: "Reduction in indexed pages"
-  - value: "6 months"
-    label: "From roadmap to results"
+  - value: "+100%"
+    label: "SEO traffic growth"
 testimonial:
   name: Andy Chadwick
   role: Co-founder, Snippet Digital
