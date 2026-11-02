@@ -1,7 +1,6 @@
 ---
 title: "How I Helped Snippet Digital Cut a Meal Planning App's Index From 2 Million Pages to 653,000"
 client: Snippet Digital
-category: Index Bloat
 industry: Agency · Meal Planning App
 order: 1
 logo: /assets/logos/11-snippet-digital.webp
