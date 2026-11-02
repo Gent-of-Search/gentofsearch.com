@@ -25,6 +25,12 @@ plugins:
 feed:
   path: /feed.xml
 
+# Case studies live at /case-study/<client>/
+collections:
+  case_studies:
+    output: true
+    permalink: /case-study/:name/
+
 # Default layouts
 defaults:
   - scope:
@@ -32,6 +38,12 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: case_studies
+    values:
+      layout: case-study
+      nav_active: case-study
 
 # Don't copy these into the built _site
 exclude:

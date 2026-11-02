@@ -1,0 +1,91 @@
+---
+layout: default
+---
+<!-- ===================== CASE STUDY HEADER ===================== -->
+<header style="padding:64px 0 0; background:radial-gradient(680px 320px at 15% 0%, #E8F5F0, transparent 70%);">
+  <div style="width:min(760px,100% - 48px); margin:0 auto;">
+    <nav aria-label="Breadcrumb" style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#8489A2; margin-bottom:26px;">
+      <a href="{{ '/' | relative_url }}" class="crumb-link" style="color:#0F7350; text-decoration:none;">Home</a>
+      <span style="color:#C3C7D4;">/</span>
+      <a href="{{ '/case-study/' | relative_url }}" class="crumb-link" style="color:#0F7350; text-decoration:none;">Case Studies</a>
+      <span style="color:#C3C7D4;">/</span>
+      <span style="color:#8489A2;">{{ page.client }}</span>
+    </nav>
+    <div style="font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#0F7350; margin-bottom:18px;">{{ page.category }} Case Study</div>
+    <h1 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:clamp(32px,4.6vw,48px); line-height:1.1; letter-spacing:-0.02em; color:#2B3052; margin:0 0 20px;">{{ page.title }}</h1>
+    <p style="font-size:20px; line-height:1.55; color:#5A607F; margin:0 0 32px;">{{ page.summary }}</p>
+
+    {% if page.stats %}
+    <div class="gos-g3" style="display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:0 0 8px;">
+      {% for s in page.stats %}
+      <div style="background:#FFFFFF; border:1px solid #E7E9F0; border-radius:14px; padding:20px 22px;">
+        <div style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:30px; line-height:1.1; letter-spacing:-0.02em; color:#0F7350; margin-bottom:6px;">{{ s.value }}</div>
+        <div style="font-size:14px; line-height:1.45; color:#5A607F;">{{ s.label }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</header>
+
+<!-- ===================== CASE STUDY BODY ===================== -->
+<article class="article" style="padding:40px 0 20px;">
+  <div style="width:min(760px,100% - 48px); margin:0 auto; font-size:18px; line-height:1.75; color:#2B3052;">
+    {{ content }}
+  </div>
+</article>
+
+{% if page.testimonial %}
+<!-- ===================== TESTIMONIAL ===================== -->
+<section style="padding:28px 0 12px;">
+  <div style="width:min(760px,100% - 48px); margin:0 auto;">
+    <div style="padding:44px; background:#2B3052; border-radius:20px; position:relative; box-shadow:0 30px 60px -20px rgba(43,48,82,0.25);">
+      <div style="position:absolute; top:0; left:44px; right:44px; height:1px; background:linear-gradient(90deg, transparent, #0F7350, transparent); opacity:0.7;"></div>
+      <span style="display:inline-block; font-family:'JetBrains Mono',monospace; font-size:11px; color:#FFC857; letter-spacing:0.15em; text-transform:uppercase; margin-bottom:18px;">Testimonial</span>
+      {% for para in page.testimonial.quote %}
+      <p style="font-family:'IBM Plex Sans',sans-serif; font-size:clamp(17px,1.8vw,19px); line-height:1.6; color:#FFFFFF; margin:0 0 {% if forloop.last %}24{% else %}14{% endif %}px;">{% if forloop.first %}&ldquo;{% endif %}{{ para }}{% if forloop.last %}&rdquo;{% endif %}</p>
+      {% endfor %}
+      <div style="display:flex; align-items:center; gap:12px;">
+        <img src="{{ page.testimonial.avatar | relative_url }}" alt="{{ page.testimonial.name }}" style="width:44px; height:44px; border-radius:50%; object-fit:cover; flex-shrink:0; border:2px solid rgba(255,255,255,0.12);">
+        <div>
+          <div style="color:#FFFFFF; font-weight:600; font-size:15px;">{{ page.testimonial.name }}</div>
+          <div style="color:rgba(255,255,255,0.65); font-size:14px;">{{ page.testimonial.role }} · <span style="color:#FFC857; letter-spacing:2px;">★★★★★</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% assign more_cases = site.case_studies | where_exp: "c", "c.url != page.url" %}
+{% if more_cases.size > 0 %}
+<!-- ===================== MORE CASE STUDIES ===================== -->
+<section style="padding:56px 0 20px;">
+  <div style="width:min(760px,100% - 48px); margin:0 auto;">
+    <h2 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:22px; letter-spacing:-0.01em; color:#2B3052; margin:0 0 8px;">More case studies</h2>
+    <div style="margin-top:14px;">
+      {% for c in more_cases limit:3 %}
+      <a href="{{ c.url | relative_url }}" class="more-link" style="display:flex; justify-content:space-between; align-items:baseline; gap:20px; padding:12px 0; text-decoration:none; color:#2B3052;">
+        <span style="font-family:'Inter Tight',sans-serif; font-weight:600; font-size:18px; color:inherit;">{{ c.title }}</span>
+        <span style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.06em; text-transform:uppercase; color:#8489A2; white-space:nowrap;">{{ c.client }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- ===================== FINAL CTA ===================== -->
+{% if page.cta %}
+<section style="padding:96px 0; text-align:center; background:radial-gradient(800px 400px at 50% 50%, #E8F5F0, transparent 65%), #FFFFFF;">
+  <div style="width:min(760px,100% - 48px); margin:0 auto;">
+    <h2 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:clamp(32px,4.5vw,52px); line-height:1.1; letter-spacing:-0.03em; color:#2B3052; max-width:640px; margin:0 auto 18px;">{{ page.cta.heading }}</h2>
+    {% for para in page.cta.text %}
+    <p style="color:#5A607F; font-size:17px; line-height:1.65; max-width:580px; margin:0 auto {% if forloop.last %}32{% else %}14{% endif %}px;">{{ para }}</p>
+    {% endfor %}
+    <a href="{{ '/contact/' | relative_url }}" style="display:inline-flex; align-items:center; gap:8px; padding:15px 30px; border-radius:999px; font-family:'Inter Tight',sans-serif; font-weight:600; font-size:16px; background:#0F7350; color:#FFFFFF; text-decoration:none; box-shadow:0 14px 36px -10px rgba(26,147,111,0.6), inset 0 -2px 0 rgba(0,0,0,0.08);">Book a Free Consultation<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+  </div>
+</section>
+{% else %}
+{% include cta.html %}
+{% endif %}
