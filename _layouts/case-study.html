@@ -17,7 +17,9 @@ layout: default
     {% endfor %}
 
     {% if page.stats %}
-    <div class="gos-g3" style="display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:0 0 8px;">
+    {%- comment -%} 4 stats sit as a 2x2 grid; 3 sit in one row {%- endcomment -%}
+    {% if page.stats.size == 4 %}{% assign stat_cols = 2 %}{% else %}{% assign stat_cols = 3 %}{% endif %}
+    <div class="gos-g{{ stat_cols }}" style="display:grid; grid-template-columns:repeat({{ stat_cols }},1fr); gap:16px; margin:0 0 8px;">
       {% for s in page.stats %}
       <div style="background:#FFFFFF; border:1px solid #E7E9F0; border-radius:14px; padding:20px 22px;">
         <div style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:30px; line-height:1.1; letter-spacing:-0.02em; color:#0F7350; margin-bottom:6px;">{{ s.value }}</div>
