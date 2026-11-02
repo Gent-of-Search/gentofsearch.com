@@ -21,9 +21,7 @@ testimonial:
   role: Partnerships, Rangewell
   avatar: /testimonial-avatars/alastair-mcpherson.webp
   quote:
-    - "Adam completely changed how we think about our website. Our SEO traffic had been falling, and he showed us why: too many pages, a navigation nobody could follow, and content scattered across the site."
-    - "He gave us a clear plan to fix it. We cut the navigation from almost 500 links to 84, removed the pages that weren't pulling their weight, and grouped everything else into content hubs."
-    - "The results speak for themselves. SEO traffic to our content hubs grew 150% in a year, and leads from those hubs grew from 415 to 700."
+    - "Adam completely changed how we think about SEO."
     - "I'd recommend Adam to any business that needs an SEO strategy built on evidence, not guesswork."
 cta:
   heading: "Want Your Website to Work <span style=\"color:#0F7350;\">Harder?</span>"
