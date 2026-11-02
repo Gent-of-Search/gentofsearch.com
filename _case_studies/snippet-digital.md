@@ -148,7 +148,7 @@ That clarity is what got the work implemented.
 
 ## The Results: Indexed pages down 67% in six months
 
-Indexed pages fell from 2 million to 653,000 over six months. That's 1.35 million low-value URLs out of Google's index and organic traffic and visibility moved with it.
+Indexed pages fell from 2 million to 653,000 over six months. And SEO traffic increased from 600,000 visits per month to 1.2 million visits per month (+100% increase).
 
 <figure class="dark">
   <img src="{{ '/assets/performance-chart.webp' | relative_url }}" width="900" height="412" alt="Performance: organic pages reduced while average organic traffic recovered to an all-time high after starting work." loading="lazy">
