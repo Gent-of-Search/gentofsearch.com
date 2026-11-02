@@ -5,7 +5,7 @@ order: 2
 logo: /assets/logos/07-rangewell.webp
 description: "How rebuilding Rangewell's website architecture around content hubs grew hub SEO traffic by 150% and SEO leads by 69% in a year."
 summary:
-  - "Rangewell's SEO traffic was falling after a run of Google core updates. The site was big, messy and hard for Google to understand."
+  - "Rangewell's SEO traffic was falling after a run of Google core updates."
   - "By rebuilding the website architecture around content hubs, SEO traffic to the hubs grew from 20,000 visits in 2022 to 50,000 in 2023. SEO leads from the hubs grew from 415 to 700."
 stats:
   - value: "+150%"
@@ -43,7 +43,7 @@ Rangewell wanted to grow SEO traffic and leads in three areas: business finance,
 
 I worked with Rangewell's product, engineering and content teams to make that happen.
 
-## The Challenge: A Big Website Google Couldn't Make Sense Of
+## The Challenge: Decline in SEO Traffic for the Website
 
 UK SEO traffic declined between October 2020 and December 2021. The drops lined up with Google core updates.
 
@@ -60,7 +60,7 @@ Google couldn't work out the site's hierarchy. As John Mueller put it, with ever
 
 More content wasn't going to fix that. Better structure would.
 
-## The Approach: Fewer, Better Pages Grouped Into Content Hubs
+## The Approach: A Focus on Quality Grouped into Hubs
 
 The plan was to make the website smaller and clearer, then fill it with high-quality content.
 
@@ -74,7 +74,9 @@ The keyword research shaped where to focus. Short-tail business finance topics h
 
 The content hubs went after both.
 
-## What I Did
+## Building Content Hubs: How I Built Content Hub System
+
+I worked with content, design and development teams to build content hubs.
 
 ### 1. Built a faster foundation
 
@@ -162,11 +164,4 @@ According to Ahrefs, Rangewell's keywords ranking in the top 10 in the UK grew f
 <figure>
   <img src="{{ '/assets/case-studies/rangewell-ahrefs.webp' | relative_url }}" width="983" height="715" alt="Ahrefs: Rangewell organic traffic and keywords ranking in positions 1 to 10, 2019 to February 2024." loading="lazy">
   <figcaption>Organic traffic and top 10 keywords. Source: Ahrefs</figcaption>
-</figure>
-
-In Google Search Console, daily clicks more than doubled between October 2022 and February 2024.
-
-<figure>
-  <img src="{{ '/assets/case-studies/rangewell-search-console.webp' | relative_url }}" width="1384" height="473" alt="Google Search Console performance: daily clicks and impressions, October 2022 to February 2024." loading="lazy">
-  <figcaption>Daily clicks and impressions. Source: Google Search Console</figcaption>
 </figure>
