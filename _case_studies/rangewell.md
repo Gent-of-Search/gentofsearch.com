@@ -16,12 +16,10 @@ stats:
     label: "Main navigation links"
   - value: "~250 → ~800"
     label: "Keywords in the top 10"
-# Testimonial is a DRAFT awaiting Alastair McPherson's approval. Do not
-# publish until he signs it off. When approved, rename this key to
-# `testimonial` (avatar: /testimonial-avatars/alasdair-mcpherson.webp).
-testimonial_draft:
+testimonial:
   name: Alastair McPherson
   role: Partnerships, Rangewell
+  avatar: /testimonial-avatars/alastair-mcpherson.webp
   quote:
     - "Adam completely changed how we think about our website. Our SEO traffic had been falling, and he showed us why: too many pages, a navigation nobody could follow, and content scattered across the site."
     - "He gave us a clear plan to fix it. We cut the navigation from almost 500 links to 84, removed the pages that weren't pulling their weight, and grouped everything else into content hubs."
