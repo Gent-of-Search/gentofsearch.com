@@ -5,7 +5,9 @@ industry: Agency · Meal Planning App
 order: 1
 logo: /assets/logos/11-snippet-digital.webp
 description: "How a prioritised technical SEO roadmap cut a meal planning app's indexed pages by 67% in six months, from 2 million to 653,000."
-summary: "Snippet Digital brought me in to fix index bloat on a client's meal planning website. In six months, a prioritised technical roadmap reduced the client's indexed pages by 67%. That work contributed directly to measurable gains in organic traffic and visibility."
+summary:
+  - "Snippet Digital brought me in to fix index bloat on a client's meal planning website."
+  - "In six months, a prioritised technical roadmap reduced the client's indexed pages by 67%. That work contributed directly to measurable gains in organic traffic and visibility."
 stats:
   - value: "2M → 653K"
     label: "Indexed pages in Google"
