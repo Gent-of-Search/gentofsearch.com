@@ -1,7 +1,7 @@
 ---
 title: "How Cognigy Doubled Non-Branded SEO Traffic in a Crowded AI Agent Market"
 client: Cognigy
-date: 2026-11-04
+date: 2026-02-14
 order: 0
 logo: /assets/logos/06-cognigy.webp
 description: "How two SEO strategies, a cleaner website architecture and new content hubs doubled Cognigy's average non-branded organic traffic in a crowded AI agent market."
@@ -13,8 +13,14 @@ stats:
     label: "Non-branded organic traffic since the work started"
   - value: "~1.1K → ~2.4K"
     label: "Avg. non-branded organic traffic (Ahrefs), Dec 2023 vs Jul 2026"
-  - value: "2.5+ years"
-    label: "Partnership"
+testimonial:
+  name: Ana-Maria Banta
+  role: VP of Marketing, Cognigy
+  avatar: /testimonial-avatars/ana-maria-banta.webp
+  quote:
+    - "Adam has the rare ability to translate SEO from a “marketing tactic” into a clear business driver — aligning content, intent, and pipeline impact. And he does so without ego, always focused on outcomes rather than credit."
+    - "If you're looking for someone who can own SEO/GEO strategically, operate independently, and manage strong stakeholders with composure and clarity, Adam is exactly that partner."
+    - "Grateful for the impact he's had on Cognigy's growth."
 cta:
   heading: "Competing Against Bigger <span style=\"color:#0F7350;\">Brands?</span>"
   text:
@@ -26,6 +32,11 @@ cta:
 ## The Story of Cognigy
 
 Cognigy builds an enterprise AI agent platform for customer service and contact centers.
+
+<figure>
+  <img src="{{ '/assets/case-studies/cognigy-homepage.webp' | relative_url }}" width="1200" height="558" alt="NiCE Cognigy homepage: AI-first CX, made real." loading="lazy">
+  <figcaption>Cognigy, an enterprise AI agent platform.</figcaption>
+</figure>
 
 Its customers are large enterprises automating conversations with their own customers.
 

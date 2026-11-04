@@ -18,8 +18,8 @@ layout: default
     {% endfor %}
 
     {% if page.stats %}
-    {%- comment -%} 4 stats sit as a 2x2 grid; 3 sit in one row {%- endcomment -%}
-    {% if page.stats.size == 4 %}{% assign stat_cols = 2 %}{% else %}{% assign stat_cols = 3 %}{% endif %}
+    {%- comment -%} 2 or 4 stats sit in two columns; 3 sit in one row {%- endcomment -%}
+    {% if page.stats.size == 4 or page.stats.size == 2 %}{% assign stat_cols = 2 %}{% else %}{% assign stat_cols = 3 %}{% endif %}
     <div class="gos-g{{ stat_cols }}" style="display:grid; grid-template-columns:repeat({{ stat_cols }},1fr); gap:16px; margin:0 0 8px;">
       {% for s in page.stats %}
       <div style="background:#FFFFFF; border:1px solid #E7E9F0; border-radius:14px; padding:20px 22px;">
