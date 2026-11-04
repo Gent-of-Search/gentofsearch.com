@@ -7,7 +7,8 @@ logo: /assets/logos/07-rangewell.webp
 description: "How rebuilding Rangewell's website architecture around content hubs grew hub SEO traffic by 150% and SEO leads by 69% in a year."
 summary:
   - "Rangewell's SEO traffic was falling after a run of Google core updates."
-  - "By rebuilding the website architecture around content hubs, SEO traffic to the hubs grew from 20,000 visits in 2022 to 50,000 in 2023. SEO leads from the hubs grew from 415 to 700."
+  - "I worked with the client to create a technical and content strategy that identified opportunities to drive growth. A key part of the strategy was to create content hubs that grouped relevant content into topical clusters."
+  - "The result was increasing non-branded SEO traffic by 150% year-over-year and increasing SEO leads by 69%."
 stats:
   - value: "+150%"
     label: "Content hub SEO traffic (20K vs 50K)"
