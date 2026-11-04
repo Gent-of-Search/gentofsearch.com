@@ -11,6 +11,7 @@ layout: default
       <span style="color:#C3C7D4;">/</span>
       <span style="color:#8489A2;">{{ page.client }}</span>
     </nav>
+    {% if page.date %}<div style="font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#8489A2; margin-bottom:18px;">Published <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time></div>{% endif %}
     <h1 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:clamp(32px,4.6vw,48px); line-height:1.1; letter-spacing:-0.02em; color:#2B3052; margin:0 0 20px;">{{ page.title }}</h1>
     {% for para in page.summary %}
     <p style="font-size:20px; line-height:1.55; color:#5A607F; margin:0 0 {% if forloop.last %}32{% else %}16{% endif %}px;">{{ para }}</p>

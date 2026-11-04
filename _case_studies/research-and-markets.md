@@ -1,6 +1,7 @@
 ---
 title: "How Research and Markets Grew Non-Brand SEO Traffic by 250% With Technical SEO Audits"
 client: Research and Markets
+date: 2026-11-04
 order: 3
 logo: /assets/logos/01-research-and-markets.webp
 description: "How technical, content and schema audits fixed product page duplication on a 1,000,000+ page website and grew non-brand SEO traffic by 250% year on year."
