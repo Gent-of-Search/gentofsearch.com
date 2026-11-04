@@ -6,18 +6,16 @@ order: 2
 logo: /assets/logos/07-rangewell.webp
 description: "How rebuilding Rangewell's website architecture around content hubs grew hub SEO traffic by 150% and SEO leads by 69% in a year."
 summary:
-  - "Rangewell's SEO traffic was falling after a run of Google core updates."
-  - "I worked with the client to create a technical and content strategy that identified opportunities to drive growth. A key part of the strategy was to create content hubs that grouped relevant content into topical clusters."
-  - "The result was increasing non-branded SEO traffic by 150% year-over-year and increasing SEO leads by 69%."
+  - "Rangewell's SEO traffic was falling after a run of Google core updates, in a business finance market where bigger competitors were winning the clicks."
+  - "I was brought in to help reverse the decline and grow leads from the SEO channel. I worked with the product, engineering, design and content teams to implement a technical and content strategy built around content hubs."
+  - "Over two years working with Rangewell's team, SEO traffic to the content hubs grew 150% year on year, and SEO leads from the hubs grew 69%."
 stats:
   - value: "+150%"
     label: "Content hub SEO traffic (20K vs 50K)"
   - value: "+69%"
     label: "Content hub SEO leads (415 vs 700)"
-  - value: "497 → 84"
-    label: "Main navigation links"
   - value: "~250 → ~800"
-    label: "Keywords in the top 10"
+    label: "Keywords in the top 10 (Ahrefs)"
 testimonial:
   name: Alastair McPherson
   role: Partnerships, Rangewell
@@ -50,51 +48,48 @@ Rangewell wanted to grow SEO traffic and leads in three areas: business finance,
 
 I worked with Rangewell's product, engineering and content teams to make that happen.
 
-## The Challenge: Decline in SEO Traffic for the Website
+## The Challenge: Falling SEO Traffic After Google Core Updates
 
-UK SEO traffic declined between October 2020 and December 2021. The drops lined up with Google core updates.
+Rangewell's UK SEO traffic declined through 2021. The drops lined up with Google core updates.
 
 Google's advice after a core update is to improve content quality and user experience. Rangewell needed to know where its quality problems were.
 
 The analysis found four:
 
-- **Too many pages.** Rangewell had 1,300 indexable pages. A direct competitor had 210 pages and 10x more UK SEO traffic.
-- **A bloated navigation.** The main navigation carried 497 internal links. The same competitor used 55. Every page looked equally important, so none of them did.
-- **Pages competing with each other.** SERP analysis found 26 pages targeting keywords Google treats as the same search. "Asset finance" and "what is asset finance" return the same results, but Rangewell had separate pages for both.
-- **Content in silos.** Landing pages, guides and case studies on the same topic sat in different folders. Commercial property content was split across /finance-options/ and /article/.
+- **Too many pages** - Rangewell's website was several times bigger than a direct competitor's. Yet that competitor was getting many times more UK SEO traffic.
+- **A bloated navigation** - The main navigation linked to hundreds of pages, far more than competitors. Every page looked equally important, so none of them did.
+- **Pages competing with each other** - SERP analysis found dozens of pages targeting keywords Google treats as the same search. "Asset finance" and "what is asset finance" return the same results, but Rangewell had separate pages for both.
+- **Content in silos** - Landing pages, guides and case studies on the same topic sat in different folders. Commercial property content was split across /finance-options/ and /article/.
 
 Google couldn't work out the site's hierarchy. As John Mueller put it, with everything interlinked Google "can't figure out which one is the most important one."
 
 More content wasn't going to fix that. Better structure would.
 
-## The Approach: A Focus on Quality Grouped into Hubs
+## The Approach: A Focus on Quality, Grouped Into Hubs
 
 The plan was to make the website smaller and clearer, then fill it with high-quality content.
 
 That meant three strategic initiatives:
 
-1. **Reduce the size of the website.** Remove, redirect or combine low-value and duplicate pages.
-2. **Reduce the size of the navigation.** Under 100 links, pointing only to the important pages.
-3. **Publish content into content hubs.** Group every landing page, guide and case study on a topic under one hub.
+1. **Reduce the size of the website** - Remove, redirect or combine low-value and duplicate pages.
+2. **Reduce the size of the navigation** - A short navigation that points only to the important pages.
+3. **Publish content into content hubs** - Group every landing page, guide and case study on a topic under one hub.
 
-The keyword research shaped where to focus. Short-tail business finance topics had 100x the search demand but far more competition. Long-tail sector topics had less demand, less competition, and only needed one or two in-depth pages each.
+The keyword research shaped where to focus. Short-tail business finance topics had far more search demand, but far more competition. Long-tail sector topics had less demand and less competition, and only needed a small number of in-depth pages each.
 
 The content hubs went after both.
 
-## Building Content Hubs: How I Built Content Hub System
+## Building Content Hubs: How I Built the Content Hub System
 
-I worked with content, design and development teams to build content hubs.
+I worked with Rangewell's content, design and development teams to plan, build and grow the content hubs.
 
 ### 1. Built a faster foundation
 
 Before the content work, the site needed to load faster.
 
-Project Speedy migrated Rangewell's React app to Next.js. Planning to release took 3 sprints, or 6 weeks.
+Project Speedy migrated Rangewell's React app to Next.js. From planning to release took a matter of weeks, not months.
 
-Two weeks after launch, real-user data showed:
-
-- Largest Contentful Paint dropped from an average of 3 seconds to 1.5 seconds.
-- Time to first byte dropped from an average of 1 second to 600 ms.
+Real-user data after launch showed big improvements in both page load times and server response times.
 
 The faster response times showed up in Search Console's crawl stats too. Googlebot could now crawl more of the site.
 
@@ -106,7 +101,7 @@ Then I used keyword clustering to group the keywords. Keywords that return the s
 
 That's how I found the overlaps. "Asset finance" and "what is asset finance" sat in one cluster, so Rangewell only needed one page to cover both.
 
-The result was a new site map. It covered 111 finance topics and 569 pages: 321 existing pages to keep and 247 new pages to write.
+The result was a new site map. It covered every finance topic Rangewell wanted to target, split between existing pages to keep and new pages to write.
 
 Every page had one job and one primary keyword.
 
@@ -116,7 +111,7 @@ Content hubs needed new page designs, engineering time and a content budget. Non
 
 So I put together a business case for investing in the website architecture.
 
-It started with the size of the prize. A direct competitor with 210 pages and 55 navigation links had 10x Rangewell's UK SEO traffic. Rangewell had the brand demand to compete. It didn't have the structure.
+It started with the size of the prize. A direct competitor with a much smaller website and a far simpler navigation was getting many times more UK SEO traffic. Rangewell had the brand demand to compete. It didn't have the structure.
 
 I built an impact model to forecast the return.
 
@@ -142,24 +137,24 @@ The hubs had to work for customers, not just Google. A visitor who can't find th
 
 So UX was built into the plan:
 
-- **Clear journeys from articles to landing pages.** Readers of a guide needed an obvious next step to the finance product it covers.
-- **Descriptive calls to action.** No "click here" or "find out more". Every button says where it goes.
-- **Usability on mobile and desktop.** The new hubs were reviewed to check customers found them easy to use on both.
-- **A CRO and UX review.** The goal was to make sure nothing on the page stopped a customer finishing an application.
+- **Clear journeys from articles to landing pages** - Readers of a guide needed an obvious next step to the finance product it covers.
+- **Descriptive calls to action** - No "click here" or "find out more". Every button says where it goes.
+- **Usability on mobile and desktop** - The new hubs were reviewed to check customers found them easy to use on both.
+- **A CRO and UX review** - The goal was to make sure nothing on the page stopped a customer finishing an application.
 
 The same model then rolled out to other target sectors.
 
 ### 5. Cut the website down and rebuilt the internal linking
 
-A content inventory audit flagged over 100 pages to remove or redirect. SERP analysis added 26 near-duplicate pages to combine.
+A content inventory audit flagged pages to remove or redirect, and SERP analysis found near-duplicate pages to combine.
 
-The new site map reduced the planned website from 796 pages to 569.
+The new site map made the planned website significantly smaller.
 
-The main navigation went from 497 links to 84. It now pointed to the primary page for each finance topic and a "view all" hub, not every sub-page.
+The main navigation was cut back to a fraction of its old size. It now pointed to the primary page for each finance topic and a "view all" hub, not every sub-page.
 
 Internal linking did the same job inside the hubs.
 
-Every link on a page splits the link equity that page passes on. As Google's Matt Cutts explained, a page with 1,000 links divides its PageRank by 1,000. Fewer, deliberate links send more value to the pages that matter.
+Every link on a page splits the link equity that page passes on. As Google's Matt Cutts explained, a page's PageRank is divided between all of its links. Fewer, deliberate links send more value to the pages that matter.
 
 So each hub followed a clear hierarchy:
 
@@ -178,31 +173,21 @@ The site map became the content calendar. Content was published continuously, wi
 
 As the hubs grew, low-quality pages inside them were removed, redirected or improved. The hubs kept getting better, not just bigger.
 
-## The Results
+## The Results: Content Hub SEO Traffic Up 150%
 
-### Content hub SEO traffic up 150% year on year
-
-SEO traffic to the content hubs grew from 20,000 visits in 2022 to 50,000 in 2023.
-
-Monthly hub traffic went from around 300 visits in December 2021 to around 5,600 in January 2024.
+SEO traffic to the content hubs grew 150% year on year, from 20,000 visits in 2022 to 50,000 in 2023.
 
 <figure>
   <img src="{{ '/assets/case-studies/rangewell-hubs-vs-non-hubs.webp' | relative_url }}" width="1400" height="918" alt="Google organic search performance: content hub SEO traffic vs non-hub SEO traffic, December 2021 to January 2024." loading="lazy">
-  <figcaption>Hub vs non-hub SEO traffic, Dec 2021 to Jan 2024.</figcaption>
+  <figcaption>Hub vs non-hub SEO traffic, Dec 2021 to Jan 2024. Source: Google Analytics</figcaption>
 </figure>
 
-### Content hub SEO leads up 69% year on year
-
-SEO leads from the content hubs grew from 415 in 2022 to 700 in 2023.
-
-That's 285 extra finance leads from organic search in a single year.
+SEO leads from the content hubs grew 69% year on year, from 415 in 2022 to 700 in 2023.
 
 <figure>
   <img src="{{ '/assets/case-studies/rangewell-hub-traffic-leads.webp' | relative_url }}" width="1400" height="918" alt="Google organic search performance for content hubs: monthly SEO leads and SEO traffic, December 2021 to January 2024." loading="lazy">
-  <figcaption>Content hub SEO leads and SEO traffic by month.</figcaption>
+  <figcaption>Content hub SEO leads and SEO traffic by month. Source: Google Analytics</figcaption>
 </figure>
-
-### Rankings followed
 
 According to Ahrefs, Rangewell's keywords ranking in the top 10 in the UK grew from around 250 in September 2022 to almost 800 by February 2024.
 
@@ -211,4 +196,6 @@ According to Ahrefs, Rangewell's keywords ranking in the top 10 in the UK grew f
   <figcaption>Organic traffic and top 10 keywords. Source: Ahrefs</figcaption>
 </figure>
 
-In Google Search Console, daily clicks more than doubled between October 2022 and February 2024.
+The hubs didn't just add pages. They gave Google a structure it could understand.
+
+That's what turned a declining channel into a growing one.
