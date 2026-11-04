@@ -65,23 +65,5 @@ layout: default
 </section>
 {% endif %}
 
-{% assign more_cases = site.case_studies | where_exp: "c", "c.url != page.url" %}
-{% if more_cases.size > 0 %}
-<!-- ===================== MORE CASE STUDIES ===================== -->
-<section style="padding:56px 0 20px;">
-  <div style="width:min(760px,100% - 48px); margin:0 auto;">
-    <h2 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:22px; letter-spacing:-0.01em; color:#2B3052; margin:0 0 8px;">More case studies</h2>
-    <div style="margin-top:14px;">
-      {% for c in more_cases limit:3 %}
-      <a href="{{ c.url | relative_url }}" class="more-link" style="display:flex; justify-content:space-between; align-items:baseline; gap:20px; padding:12px 0; text-decoration:none; color:#2B3052;">
-        <span style="font-family:'Inter Tight',sans-serif; font-weight:600; font-size:18px; color:inherit;">{{ c.title }}</span>
-        <span style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.06em; text-transform:uppercase; color:#8489A2; white-space:nowrap;">{{ c.client }}</span>
-      </a>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}
-
 <!-- ===================== FINAL CTA ===================== -->
 {% include cta.html %}
