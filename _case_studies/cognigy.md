@@ -6,13 +6,14 @@ order: 0
 logo: /assets/logos/06-cognigy.webp
 description: "How two SEO strategies, a cleaner website architecture and new content hubs doubled Cognigy's average non-branded organic traffic in a crowded AI agent market."
 summary:
-  - "Cognigy had a strong brand, but most of its SEO traffic came from people who already knew the name. In a market filling up with AI agent platforms, it needed to be found by buyers who didn't."
-  - "Two SEO strategies, a cleaner website architecture and new content hubs later, Cognigy's average non-branded organic traffic has doubled."
+  - "In a competitive market of AI voice agent platforms, Cognigy wasn't being found in the B2B buyer's journey in organic search."
+  - "I was brought in as a Senior SEO Strategist to help drive non-branded SEO traffic and drive more B2B sales through the SEO channel. I worked with the product, marketing and development teams to implement technical and content strategies."
+  - "Over 2 years working with Cognigy's team, average non-branded organic traffic doubled in a competitive market."
 stats:
-  - value: "2x"
+  - value: "2x SEO traffic"
     label: "Non-branded organic traffic since the work started"
   - value: "~1.1K → ~2.4K"
-    label: "Avg. non-branded organic traffic (Ahrefs), Dec 2023 vs Jul 2026"
+    label: "Avg. non-branded organic traffic (Ahrefs)"
 testimonial:
   name: Ana-Maria Banta
   role: VP of Marketing, Cognigy
@@ -145,7 +146,7 @@ It tracked rankings by keyword group, flagged changes in Google like AI Overview
 
 According to Ahrefs, Cognigy's average non-branded organic traffic grew from around 1,100 when the work started in late 2023 to around 2,400 by July 2026.
 
-That's 2x the non-branded traffic, from buyers who weren't searching for Cognigy by name.
+That's 2x the non-branded traffic, for key moments in the buyer's journey where Cognigy wasn't appearing in Google Search.
 
 <figure>
   <img src="{{ '/assets/case-studies/cognigy-non-branded-traffic.svg' | relative_url }}" width="1200" height="600" alt="Cognigy's average non-branded organic traffic, August 2021 to July 2026, with the start of the work in December 2023 marked. Traffic doubled from around 1,100 to over 2,000." loading="lazy">
