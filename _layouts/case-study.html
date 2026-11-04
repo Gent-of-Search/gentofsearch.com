@@ -49,7 +49,11 @@ layout: default
       <p style="font-family:'IBM Plex Sans',sans-serif; font-size:clamp(17px,1.8vw,19px); line-height:1.6; color:#FFFFFF; margin:0 0 {% if forloop.last %}24{% else %}14{% endif %}px;">{% if forloop.first %}&ldquo;{% endif %}{{ para }}{% if forloop.last %}&rdquo;{% endif %}</p>
       {% endfor %}
       <div style="display:flex; align-items:center; gap:12px;">
+        {% if page.testimonial.avatar %}
         <img src="{{ page.testimonial.avatar | relative_url }}" alt="{{ page.testimonial.name }}" style="width:44px; height:44px; border-radius:50%; object-fit:cover; flex-shrink:0; border:2px solid rgba(255,255,255,0.12);">
+        {% else %}
+        <span style="width:44px; height:44px; border-radius:50%; background:#0F7350; display:grid; place-items:center; flex-shrink:0; font-family:'Inter Tight',sans-serif; font-weight:700; font-size:15px; color:#FFFFFF; border:2px solid rgba(255,255,255,0.12);">{{ page.testimonial.initials }}</span>
+        {% endif %}
         <div>
           <div style="color:#FFFFFF; font-weight:600; font-size:15px;">{{ page.testimonial.name }}</div>
           <div style="color:rgba(255,255,255,0.65); font-size:14px;">{{ page.testimonial.role }} · <span style="color:#FFC857; letter-spacing:2px;">★★★★★</span></div>
