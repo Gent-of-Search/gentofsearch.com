@@ -4,7 +4,7 @@ client: Cognigy
 date: 2026-02-14
 order: 0
 logo: /assets/logos/06-cognigy.webp
-description: "How two SEO strategies, a cleaner website architecture and new content hubs doubled Cognigy's average non-branded organic traffic in a crowded AI agent market."
+description: "How technical and content SEO strategies doubled Cognigy's average non-branded organic traffic in 2 years, in a competitive AI voice agent market."
 summary:
   - "In a competitive market of AI voice agent platforms, Cognigy wasn't being found in the B2B buyer's journey in organic search."
   - "I was brought in as a Senior SEO Strategist to help drive non-branded SEO traffic and drive more B2B sales through the SEO channel. I worked with the product, marketing and development teams to implement technical and content strategies."
