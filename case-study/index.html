@@ -21,7 +21,7 @@ nav_active: case-study
 <!-- ===================== CASE STUDY LIST ===================== -->
 <section style="padding:36px 0 84px;">
   <div style="width:min(960px,100% - 48px); margin:0 auto; display:flex; flex-direction:column; gap:28px;">
-    {% assign cases = site.case_studies | sort: "order" %}
+    {% assign cases = site.case_studies | sort: "date" | reverse %}
     {% for c in cases %}
     <div class="cs-card gos-g2" style="position:relative; display:grid; grid-template-columns:0.8fr 1.2fr; color:#2B3052; background:#FFFFFF; border:1px solid #E7E9F0; border-radius:20px; overflow:hidden;">
       <div style="background:#2B3052; padding:36px; display:flex; align-items:center; justify-content:center; position:relative;">
