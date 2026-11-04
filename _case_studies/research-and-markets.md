@@ -35,6 +35,11 @@ cta:
 
 Research and Markets sells market research reports online.
 
+<figure>
+  <img src="{{ '/assets/case-studies/research-and-markets-homepage.webp' | relative_url }}" width="1200" height="659" alt="Research and Markets homepage: The World's Largest Market Research Store." loading="lazy">
+  <figcaption>Research and Markets, the world's largest market research store.</figcaption>
+</figure>
+
 The website has over 1,000,000 pages and over 250,000 pages were indexed in Google. Nearly all of its SEO traffic came from one template: product pages.
 
 Those product pages drove over 85% of the site's organic growth in the previous 12 months. That made them the biggest opportunity on the site, and the biggest risk.
