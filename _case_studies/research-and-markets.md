@@ -1,5 +1,5 @@
 ---
-title: "How Research and Markets Grew Non-Brand SEO Traffic by 250% With Technical SEO Audits"
+title: "How a Technical SEO Audit Helped Research and Markets Grow Non-Brand SEO Traffic by 250%"
 client: Research and Markets
 date: 2022-01-30
 order: 3
