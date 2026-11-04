@@ -3,7 +3,7 @@ title: "How Research and Markets Grew Non-Brand SEO Traffic by 250% With Technic
 client: Research and Markets
 order: 3
 logo: /assets/logos/01-research-and-markets.webp
-description: "How technical, content and schema audits fixed product page duplication on a 250,000-page website and grew non-brand SEO traffic by 250% year on year."
+description: "How technical, content and schema audits fixed product page duplication on a 1,000,000+ page website and grew non-brand SEO traffic by 250% year on year."
 summary:
   - "Research and Markets hired Gent of Search to run a technical SEO audit to identify why their website was being held back in Google organic search."
   - "The technical SEO audit, followed by content and schema audits, identified a number of prioritised opportunities to fix. After working with the team to implement the opportunities, non-brand SEO traffic grew 250% year-on-year, and the SEO channel drove over €1 million in revenue in the year to date."
