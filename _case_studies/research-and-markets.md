@@ -154,8 +154,6 @@ That built the team's technical SEO knowledge along the way. The fixes kept comi
 
 ## The Results
 
-### Non-brand SEO traffic up 250% year on year
-
 The traffic didn't rise in a straight line. It rose after each implementation phase.
 
 Non-brand SEO traffic grew 250% year on year, and SEO visibility hit the highest level the site had ever seen.
