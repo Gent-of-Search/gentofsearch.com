@@ -5,12 +5,12 @@ order: 3
 logo: /assets/logos/01-research-and-markets.webp
 description: "How technical, content and schema audits fixed product page duplication on a 250,000-page website and grew non-brand SEO traffic by 250% year on year."
 summary:
-  - "Research and Markets had the strongest domain in its market but not the traffic to match. Duplicate product pages were holding the whole site back."
-  - "A technical SEO audit, followed by content and schema audits, gave the team a prioritised plan to fix it. Non-brand SEO traffic grew 250% year on year, and the SEO channel drove over 1 million in revenue in the year to date."
+  - "Research and Markets hired Gent of Search to run a technical SEO audit to identify why their website was being held back in Google organic search."
+  - "The technical SEO audit, followed by content and schema audits, identified a number of prioritised opportunities to fix. After working with the team to implement the opportunities, non-brand SEO traffic grew 250% year-on-year, and the SEO channel drove over €1 million in revenue in the year to date."
 stats:
   - value: "+250%"
     label: "Non-brand SEO traffic, year on year"
-  - value: "1M+"
+  - value: "€1M+"
     label: "Revenue from SEO, year to date"
   - value: "~8.5K → ~26K"
     label: "Est. monthly SEO traffic (Ahrefs), Mar vs Dec 2021"
@@ -57,7 +57,7 @@ The duplication was the root of almost every other issue.
 
 Fix that, and a lot of the rest would follow.
 
-## The Approach: Fix the Root Cause, Then Keep Making Gains
+## The Approach: Identify Big Wins Through Small Changes
 
 There's rarely a technical SEO silver bullet. Large websites grow through constant small improvements, the aggregation of marginal gains.
 
@@ -74,9 +74,11 @@ The technical audit set four priorities:
 - **Content relevance and quality.** Help Google understand product and category pages.
 - **Crawling and indexing.** Only index the important product pages, and stop crawlers wasting time on low-value URLs.
 
-## What I Did
+## How I Worked: Technical SEO That Drives Growth
 
-### 1. Ran a technical SEO audit of a 250,000-page website
+I worked with the development and marketing teams to fix opportunities that drive growth.
+
+### 1. Ran a technical SEO audit of a 1,000,000+ page website
 
 The audit covered crawling and indexing, website architecture, content, meta tags, structured data and site speed.
 
@@ -92,7 +94,7 @@ The preferred option was one static canonical URL for each report. Every country
 
 The fallback was an advanced canonicalisation strategy:
 
-- Pick one canonical URL in each duplicate group and point the duplicates' canonical tags to it.
+- Pick a canonical URL in each duplicate group and point the duplicates' canonical tags to it.
 - Move canonical reports above the duplicates in category listings.
 - Link the duplicates back to the canonical report.
 - Remove duplicate URLs from XML sitemaps and cut unnecessary internal links to them.
@@ -103,30 +105,30 @@ Either way, Google gets one clear page to rank, and the link value flows to it.
 
 The less links on a page, the more value each link passes. So the plan was fewer, better links:
 
-- **Pull the top products up the architecture.** Link the most important reports from the homepage and category pages, and move them higher in category listings.
-- **Add related categories in the main content.** 4 to 5 relevant categories above the listings on every category page.
-- **Cut the excess.** Reduce the "related tag" links on report pages and trim the 332-link navigation to the categories customers actually use.
-- **Fix the pagination.** A better link scheme to reduce the click depth to deep product pages.
+- **Pull the top products up the architecture** - Link the most important product pages from the homepage and category pages, and move them higher in category listings.
+- **Push non-indexable pages down the architecture** - The team created new internal link logic to push any noindex pages further down the internal link architecture.
+- **Add related categories in the main content** - We added new categories above the listings on every category page.
+- **Cut the excess** - Reduce the "related tag" links on report pages and trim the links in the main navigation to the categories customers actually use.
+- **Fix the pagination** - A better link scheme to reduce the click depth to deep product pages.
 
 ### 4. Cleaned up crawling and indexing
 
 On a site this size, small leaks add up. The audit found and fixed:
 
-- 311 pages in the top 10,000 traffic-driving pages returning a 410 error. These were redirected to the closest live report.
-- 841 pages with backlinks redirecting to dead pages, and 73 dead pages with backlinks of their own.
-- 1,000 tracking parameter URLs indexed ahead of their canonical pages.
-- 990 internal links going through unnecessary redirects to out-of-date products.
-
-XML sitemaps were capped at 10,000 URLs to speed up the crawling of new reports. 304 "not modified" responses helped Googlebot skip pages that hadn't changed.
+- There were pages in the top 10,000 traffic-driving pages returning a 410 error. These were redirected to the closest live report.
+- There were pages with backlinks redirecting to dead pages, and these were cleaned up.
+- Thousands of tracking parameter URLs indexed instead of their canonical pages.
+- Thousands of unnecessary redirects to out-of-date products.
+- XML sitemaps were not properly configured, and were capped at 10K URLs per sitemap (to help speed up discovery and processing of product URLs).
 
 ### 5. Audited the content on product and category pages
 
 The content audit focused on making the key templates easier for Google to understand:
 
-- **Thin content.** 4,400 indexable product pages had far less content than the rest of the site and competitors.
-- **Structure.** Product content used line breaks and bold text instead of headings and lists.
-- **Hidden content.** Category text was hidden behind "Read more" at the bottom of the page. It needed to be visible, above the fold, on desktop and mobile.
-- **Title tags.** 72,000 product pages had titles too long to display in full. A rule rewrote them to 60 characters or fewer.
+- **Thin content** - Product pages had far less content than the rest of the site and competitors.
+- **Structure** - Product content didn't use HTML heading tags and lists.
+- **Hidden content** - Category text was hidden behind "Read more" at the bottom of the page. It needed to be visible, above the fold, on desktop and mobile.
+- **Title tags** - Product pages had titles that were very long and didn't include target keywords closer to the start. A new rule rewrote them to be shorter and include target keywords.
 
 ### 6. Audited the structured data
 
@@ -144,21 +146,17 @@ That built the team's technical SEO knowledge along the way. The fixes kept comi
 
 ### Non-brand SEO traffic up 250% year on year
 
+The traffic didn't rise in a straight line. It rose after each implementation phase.
+
 Non-brand SEO traffic grew 250% year on year, and SEO visibility hit the highest level the site had ever seen.
 
 According to Ahrefs, estimated monthly SEO traffic grew from around 8,500 when the technical audit started in March 2021 to around 26,000 by December 2021.
+
+The SEO channel drove over €1 million in revenue in the year to date.
 
 <figure>
   <img src="{{ '/assets/case-studies/research-and-markets-seo-traffic.webp' | relative_url }}" width="1600" height="857" alt="Estimated SEO traffic for Research and Markets, December 2020 to December 2021, with the technical, content and schema audits and each implementation phase marked." loading="lazy">
   <figcaption>Estimated SEO traffic with each audit and implementation phase marked. Source: Ahrefs</figcaption>
 </figure>
-
-### Over 1 million in revenue from SEO
-
-The SEO channel drove over 1 million in revenue in the year to date.
-
-### Growth came in steps
-
-The traffic didn't rise in a straight line. It rose after each implementation phase.
 
 That's the aggregation of marginal gains in practice. Each audit found the next set of improvements, and each release moved the site forward.
