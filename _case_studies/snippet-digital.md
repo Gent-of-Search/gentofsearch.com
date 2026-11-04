@@ -1,5 +1,5 @@
 ---
-title: "How I Helped Snippet Digital Cut a Meal Planning App's Index From 2 Million Pages to 653,000"
+title: "How I Helped Snippet Digital Increase SEO Traffic by 100% for a Meal Planning Client"
 client: Snippet Digital
 industry: Agency · Meal Planning App
 date: 2026-08-31
