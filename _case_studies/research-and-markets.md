@@ -32,11 +32,11 @@ cta:
 
 ## The Story of Research and Markets
 
-Research and Markets sells market research reports online. Its biggest market is the USA.
+Research and Markets sells market research reports online.
 
-The website is huge. Over 250,000 pages were indexed in Google, and almost all of its SEO traffic came from one template: the /reports/ product pages.
+The website has over 1,000,000 pages and over 250,000 pages were indexed in Google. Nearly all of its SEO traffic came from one template: product pages.
 
-Those pages drove over 85% of the site's organic growth in the previous 12 months. That made them the biggest opportunity on the site, and the biggest risk.
+Those product pages drove over 85% of the site's organic growth in the previous 12 months. That made them the biggest opportunity on the site, and the biggest risk.
 
 Research and Markets wanted to grow organic search traffic and revenue in the US. They brought me in to find out what was holding the site back.
 
@@ -44,16 +44,17 @@ Research and Markets wanted to grow organic search traffic and revenue in the US
 
 On paper, Research and Markets should have been winning.
 
-It had the most pages indexed of any competitor (252,000) and the most referring domains (18,212). Yet a smaller competitor, with 151,000 pages and 5,301 referring domains, had about 2.5x the estimated organic traffic (21,255 vs 8,354).
+It had the most pages indexed of any competitor and the most referring domains. Yet a smaller competitor, with fewer indexed pages and fewer referring domains, had about 2.5x the estimated organic traffic.
 
 The audit found why:
 
-- **Product pages duplicated across the site.** The same report existed on multiple URLs, split by country, by small title changes and by version date. The duplicates were handled with noindex tags.
-- **A site Google mostly couldn't index.** Search Console excluded 1 million URLs, half of them because of noindex. Over 70% of the pages found in a crawl were non-indexable.
-- **Link value leaking away.** Google has said it treats long-term noindex pages as noindex, nofollow. Every internal and external link pointing at those duplicates was being lost.
-- **Important pages buried.** The top product pages sat 4 clicks deep. 127,000 report pages carried over 100 links each, mostly "related tag" links. The main navigation had 332 links, many to categories with almost no clicks or impressions.
+- **Product pages duplicated across the site** - The same report existed on multiple URLs, split by country, by small title changes and by version date. The duplicates were handled with noindex tags.
+- **Link value leaking away** - Google has said it treats long-term noindex pages as noindex, nofollow. Every internal and external link pointing at those duplicates was being lost.
+- **Important pages buried** - The important product pages were 4-5 clicks away from the homepage.
+- **Links to dead pages** - The link architecture prioritised linking to noindexed product pages through the "related tag" link module and through the main navigation.
+- **Product page content** - The product page content was hidden and not structured in the same way as other competitors.
 
-The duplication was the root of almost every other issue.
+The handling of the duplicate content, product page content, and internal linking was the root cause of the website being held back by Google.
 
 Fix that, and a lot of the rest would follow.
 
@@ -61,18 +62,21 @@ Fix that, and a lot of the rest would follow.
 
 There's rarely a technical SEO silver bullet. Large websites grow through constant small improvements, the aggregation of marginal gains.
 
-So the work ran in cycles. Each audit was followed by an implementation phase before the next audit started:
+So the work ran in cycles.
+
+Each audit was followed by an implementation phase before the next audit started:
 
 1. Technical SEO audit, then implementation.
 2. Content audit, then implementation.
 3. Schema audit, then implementation.
 
-The technical audit set four priorities:
+Each audit helped tackle these key opportunities:
 
-- **Product page duplication.** The number one priority, because it caused most of the other issues.
-- **Internal linking.** Show Google which pages matter most to Research and Markets.
-- **Content relevance and quality.** Help Google understand product and category pages.
-- **Crawling and indexing.** Only index the important product pages, and stop crawlers wasting time on low-value URLs.
+- **Product page duplication** - The number one priority, because it caused most of the other issues.
+- **Internal linking** - Show Google which pages matter most to Research and Markets.
+- **Content relevance and quality** - Help Google understand product and category pages.
+- **Crawling and indexing** - Only index the important product pages, and stop crawlers wasting time on low-value URLs.
+- **Boost click-through rate** - Schema markup and rewriting title tags would help enrich product pages in Google's SERPs, enticing users to engage with the pages.
 
 ## How I Worked: Technical SEO That Drives Growth
 
