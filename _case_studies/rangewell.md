@@ -35,7 +35,14 @@ cta:
 
 ## The Story of Rangewell
 
-Rangewell is a UK business finance platform. It helps businesses find and apply for funding, from commercial mortgages to asset finance.
+Rangewell is a UK business finance platform.
+
+<figure>
+  <img src="{{ '/assets/case-studies/rangewell-homepage.webp' | relative_url }}" width="1200" height="525" alt="Rangewell homepage: Business finance. Quickly, simply." loading="lazy">
+  <figcaption>Rangewell, a UK business finance platform.</figcaption>
+</figure>
+
+It helps businesses find and apply for funding, from commercial mortgages to asset finance.
 
 SEO is a core acquisition channel. Every organic visitor is a potential finance application.
 
