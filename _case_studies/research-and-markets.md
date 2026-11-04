@@ -23,12 +23,6 @@ testimonial:
   initials: CS
   quote:
     - "In a short period of time working with Adam has resulted in significant growth of our organic traffic and revenue as well as our team's understanding of technical SEO. We look forward to working with him again."
-cta:
-  heading: "Running a Large Ecommerce <span style=\"color:#0F7350;\">Website?</span>"
-  text:
-    - "If your site has hundreds of thousands of pages and the traffic doesn't match, the problem is rarely one thing. It's usually duplication, crawling and internal linking working against each other."
-    - "I help in-house teams find those issues, prioritise them and get them fixed."
-    - "Get in touch to talk about your site."
 ---
 
 ## The Story of Research and Markets

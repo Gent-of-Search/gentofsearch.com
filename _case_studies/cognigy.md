@@ -22,12 +22,6 @@ testimonial:
     - "Adam has the rare ability to translate SEO from a “marketing tactic” into a clear business driver — aligning content, intent, and pipeline impact. And he does so without ego, always focused on outcomes rather than credit."
     - "If you're looking for someone who can own SEO/GEO strategically, operate independently, and manage strong stakeholders with composure and clarity, Adam is exactly that partner."
     - "Grateful for the impact he's had on Cognigy's growth."
-cta:
-  heading: "Competing Against Bigger <span style=\"color:#0F7350;\">Brands?</span>"
-  text:
-    - "If your brand is strong but your non-branded traffic isn't, the problem usually isn't the amount of content. It's the structure behind it."
-    - "I help in-house teams build SEO strategies that turn brand authority into non-branded growth."
-    - "Get in touch to talk about your site."
 ---
 
 ## The Story of Cognigy

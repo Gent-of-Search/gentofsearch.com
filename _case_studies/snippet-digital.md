@@ -24,11 +24,6 @@ testimonial:
     - "Adam has transformed our client's index performance. Over the past 6 months, he's created a prioritised roadmap that helped reduce their indexed pages from 2 million to 653,000 (a 67% reduction)."
     - "By improving the overall health of the site, his work has directly contributed to measurable gains in organic search traffic and visibility."
     - "I'd recommend him to any team serious about solving Google indexing issues."
-cta:
-  heading: "Got an Index Bloat <span style=\"color:#0F7350;\">Problem?</span>"
-  text:
-    - "If your site has millions of pages indexed and only a fraction drives traffic, the fix isn't a mass noindex. It's knowing which pages are worth keeping."
-    - "I help in-house teams and agencies diagnose and fix Google indexing issues on large websites."
 ---
 
 ## The Story of Snippet Digital

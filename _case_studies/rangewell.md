@@ -23,12 +23,6 @@ testimonial:
   quote:
     - "Adam completely changed how we think about SEO."
     - "I'd recommend Adam to any business that needs an SEO strategy built on evidence, not guesswork."
-cta:
-  heading: "Want Your Website to Work <span style=\"color:#0F7350;\">Harder?</span>"
-  text:
-    - "If your site has grown faster than its structure, publishing more content won't fix it. A clear architecture will."
-    - "I help in-house teams and agencies plan website architecture and content hubs that Google can understand and customers can use."
-    - "Get in touch to talk about your site."
 ---
 
 ## The Story of Rangewell
