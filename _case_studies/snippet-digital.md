@@ -2,7 +2,7 @@
 title: "How I Helped Snippet Digital Cut a Meal Planning App's Index From 2 Million Pages to 653,000"
 client: Snippet Digital
 industry: Agency · Meal Planning App
-date: 2026-11-02
+date: 2026-08-31
 order: 1
 logo: /assets/logos/11-snippet-digital.webp
 description: "How a prioritised technical SEO roadmap cut a meal planning app's indexed pages by 67% in six months, from 2 million to 653,000."

@@ -1,7 +1,7 @@
 ---
 title: "How Content Hubs Grew Rangewell's SEO Traffic by 150% and SEO Leads by 69%"
 client: Rangewell
-date: 2026-11-02
+date: 2024-04-04
 order: 2
 logo: /assets/logos/07-rangewell.webp
 description: "How rebuilding Rangewell's website architecture around content hubs grew hub SEO traffic by 150% and SEO leads by 69% in a year."
