@@ -16,7 +16,7 @@ nav_active: blog
     <div style="padding:14px 0; margin:0 0 24px; border-top:1px solid #E7E9F0; border-bottom:1px solid #E7E9F0;">
     <div style="overflow:hidden;">
       <div style="display:flex; flex-wrap:wrap; row-gap:6px; margin-left:-25px; font-size:15px; line-height:1.4; color:#5A607F;">
-        <span style="padding-left:12px; margin-left:12px; border-left:1px solid #C3C7D4;">Author: <a href="{{ '/about/' | relative_url }}" style="color:#2B3052; font-weight:600; text-decoration:underline; text-underline-offset:3px;">Adam Gent</a></span>
+        <span style="padding-left:12px; margin-left:12px; border-left:1px solid #C3C7D4;">Author: <a href="{{ '/about/' | relative_url }}" target="_blank" rel="noopener" style="color:#2B3052; font-weight:600; text-decoration:underline; text-underline-offset:3px;">Adam Gent</a></span>
         {% if page.read_time %}<span style="padding-left:12px; margin-left:12px; border-left:1px solid #C3C7D4;">{{ page.read_time }}</span>{% endif %}
         <span style="padding-left:12px; margin-left:12px; border-left:1px solid #C3C7D4;">Published: <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
       </div>
@@ -42,7 +42,7 @@ nav_active: blog
         <div style="font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:#0F7350; margin-bottom:6px;">Author</div>
         <div style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:19px; color:#2B3052; margin-bottom:6px;">Adam Gent</div>
         <p style="font-size:15px; line-height:1.65; color:#5A607F; margin:0 0 12px;">Technical SEO Consultant with nearly 15 years helping 7-figure companies turn organic search into revenue. Founder of Gent of Search and co-founder of Indexing Insight.</p>
-        <a href="{{ '/about/' | relative_url }}" style="font-family:'Inter Tight',sans-serif; font-weight:600; font-size:14px; color:#0F7350; text-decoration:none;">More about Adam &rarr;</a>
+        <a href="{{ '/about/' | relative_url }}" target="_blank" rel="noopener" style="font-family:'Inter Tight',sans-serif; font-weight:600; font-size:14px; color:#0F7350; text-decoration:none;">More about Adam &rarr;</a>
       </div>
     </div>
   </div>
