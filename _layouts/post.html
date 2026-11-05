@@ -18,7 +18,7 @@ nav_active: blog
       <div style="display:flex; flex-wrap:wrap; row-gap:6px; margin-left:-25px; font-size:15px; line-height:1.4; color:#5A607F;">
         <span style="padding-left:12px; margin-left:12px; border-left:1px solid #C3C7D4;">Author: <a href="{{ '/about/' | relative_url }}" style="color:#2B3052; font-weight:600; text-decoration:underline; text-underline-offset:3px;">Adam Gent</a></span>
         {% if page.read_time %}<span style="padding-left:12px; margin-left:12px; border-left:1px solid #C3C7D4;">{{ page.read_time }}</span>{% endif %}
-        <time datetime="{{ page.date | date: '%Y-%m-%d' }}" style="padding-left:12px; margin-left:12px; border-left:1px solid #C3C7D4;">{{ page.date | date: "%B %-d, %Y" }}</time>
+        <span style="padding-left:12px; margin-left:12px; border-left:1px solid #C3C7D4;">Published: <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
       </div>
     </div>
     </div>
