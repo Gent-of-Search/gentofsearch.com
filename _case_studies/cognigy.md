@@ -3,7 +3,8 @@ title: "How Cognigy Doubled Non-Branded SEO Traffic in a Crowded AI Agent Market
 client: Cognigy
 date: 2026-02-14
 order: 0
-logo: /assets/logos/06-cognigy.webp
+logo: /assets/logos/mono/06-cognigy-v2.webp
+logo_height: 26
 description: "How technical and content SEO strategies doubled Cognigy's average non-branded organic traffic in 2 years, in a competitive AI voice agent market."
 summary:
   - "In a competitive market of AI voice agent platforms, Cognigy wasn't being found in the B2B buyer's journey in organic search."

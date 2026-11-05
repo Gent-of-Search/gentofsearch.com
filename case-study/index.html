@@ -27,7 +27,7 @@ nav_active: case-study
       <div style="background:#2B3052; padding:36px; display:flex; align-items:center; justify-content:center; position:relative;">
         <div style="position:absolute; top:0; left:36px; right:36px; height:1px; background:linear-gradient(90deg, transparent, #0F7350, transparent); opacity:0.7;"></div>
         <div style="background:#FFFFFF; border-radius:12px; padding:18px 22px; display:flex; align-items:center; justify-content:center; min-height:84px; width:100%;">
-          <img src="{{ c.logo | relative_url }}" alt="{{ c.client }} logo" style="max-height:48px; max-width:100%; width:auto; object-fit:contain;">
+          <img src="{{ c.logo | relative_url }}" alt="{{ c.client }} logo" style="height:{{ c.logo_height | default: 40 }}px; max-width:100%; width:auto; object-fit:contain;">
         </div>
       </div>
       <div style="padding:36px 36px 32px; display:flex; flex-direction:column;">

@@ -3,7 +3,8 @@ title: "How Content Hubs Grew Rangewell's SEO Traffic by 150% and SEO Leads by 6
 client: Rangewell
 date: 2024-04-04
 order: 2
-logo: /assets/logos/07-rangewell.webp
+logo: /assets/logos/mono/07-rangewell-v2.webp
+logo_height: 27
 description: "How rebuilding Rangewell's website architecture around content hubs grew hub SEO traffic by 150% and SEO leads by 69% in a year."
 summary:
   - "Rangewell's SEO traffic was falling after a run of Google core updates, in a business finance market where bigger competitors were winning the clicks."
