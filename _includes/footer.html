@@ -1,12 +1,40 @@
-<footer style="padding:40px 0; background:#2B3052; color:rgba(255,255,255,0.65);">
-  <div style="width:min(1180px,100% - 48px); margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:20px; font-size:13px;">
-    <div style="display:flex; align-items:center; gap:10px;">
-      <span style="width:24px; height:24px; border-radius:50%; background:#0F7350; display:grid; place-items:center; flex-shrink:0;"><span style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:14px; line-height:1; color:#FFFFFF;">G</span></span>
-      <span>&copy; {{ site.time | date: '%Y' }} Gent of Search &middot; Senior SEO &amp; Technical Consultancy.</span>
+<footer style="padding:56px 0 32px; background:#2B3052; color:rgba(255,255,255,0.65);">
+  <div style="width:min(1180px,100% - 48px); margin:0 auto;">
+    <div class="gos-footer-grid" style="display:grid; grid-template-columns:1.5fr 1fr 1fr 1fr; gap:36px 32px; padding-bottom:40px;">
+      <div class="gos-footer-brand">
+        <a href="{{ '/' | relative_url }}" style="display:inline-flex; align-items:center; gap:10px; text-decoration:none;">
+          <span style="width:32px; height:32px; border-radius:50%; background:#0F7350; display:grid; place-items:center; flex-shrink:0;"><span style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:17px; line-height:1; color:#FFFFFF;">G</span></span>
+          <span style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:16px; color:#FFFFFF;">Gent of Search</span>
+        </a>
+        <p style="font-size:14px; line-height:1.6; margin:14px 0 0; max-width:280px;">Senior SEO &amp; Technical Consultancy.</p>
+      </div>
+      <nav aria-label="Services">
+        <div class="gos-footer-head">Services</div>
+        <a class="gos-footer-link" href="{{ '/services/audits/' | relative_url }}">SEO &amp; AI Audits</a>
+        <a class="gos-footer-link" href="{{ '/services/strategy/' | relative_url }}">SEO &amp; AI Strategy</a>
+        <a class="gos-footer-link" href="{{ '/services/consultancy/' | relative_url }}">SEO &amp; AI Consultancy</a>
+        <a class="gos-footer-link" href="{{ '/services/fractional-seo/' | relative_url }}">Fractional SEO &amp; AI Manager</a>
+      </nav>
+      <nav aria-label="Industries">
+        <div class="gos-footer-head">Industries</div>
+        <a class="gos-footer-link" href="{{ '/industry/b2b-saas/' | relative_url }}">SaaS</a>
+        <a class="gos-footer-link" href="{{ '/industry/enterprise/' | relative_url }}">Enterprise</a>
+        <a class="gos-footer-link" href="{{ '/industry/ecommerce/' | relative_url }}">Ecommerce</a>
+      </nav>
+      <nav aria-label="Company">
+        <div class="gos-footer-head">Company</div>
+        <a class="gos-footer-link" href="{{ '/about/' | relative_url }}">About</a>
+        <a class="gos-footer-link" href="{{ '/talks/' | relative_url }}">Talks</a>
+        <a class="gos-footer-link" href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a class="gos-footer-link" href="{{ '/contact/' | relative_url }}">Contact</a>
+      </nav>
     </div>
-    <div style="display:flex; gap:22px;">
-      <a href="{{ '/privacy/' | relative_url }}" style="color:rgba(255,255,255,0.7); text-decoration:none;">Privacy Policy</a>
-      <a href="{{ '/cookie/' | relative_url }}" style="color:rgba(255,255,255,0.7); text-decoration:none;">Cookie Policy</a>
+    <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:14px 20px; padding-top:24px; border-top:1px solid rgba(255,255,255,0.12); font-size:13px;">
+      <span>&copy; {{ site.time | date: '%Y' }} Gent of Search</span>
+      <div style="display:flex; gap:22px;">
+        <a href="{{ '/privacy/' | relative_url }}" class="gos-footer-legal">Privacy Policy</a>
+        <a href="{{ '/cookie/' | relative_url }}" class="gos-footer-legal">Cookie Policy</a>
+      </div>
     </div>
   </div>
 </footer>

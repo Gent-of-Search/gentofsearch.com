@@ -270,3 +270,20 @@ img { max-width: 100%; }
   .gos-fold { min-height: calc(100vh - 59px); min-height: calc(100svh - 59px); display: flex; flex-direction: column; }
   .gos-fold > section:first-child { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; }
 }
+
+/* ---------- Footer ---------- */
+.gos-footer-head {
+  font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 500;
+  letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.45);
+  margin-bottom: 14px;
+}
+.gos-footer-link {
+  display: block; padding: 5px 0; font-size: 15px; line-height: 1.4;
+  color: rgba(255,255,255,0.8); text-decoration: none; transition: color .15s ease;
+}
+.gos-footer-link:hover, .gos-footer-legal:hover { color: #FFFFFF; }
+.gos-footer-legal { color: rgba(255,255,255,0.7); text-decoration: none; transition: color .15s ease; }
+@media (max-width: 860px) {
+  .gos-footer-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .gos-footer-brand { grid-column: 1 / -1; }
+}
