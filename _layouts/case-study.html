@@ -13,6 +13,13 @@ layout: default
     </nav>
     {% if page.date %}<div style="font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#8489A2; margin-bottom:18px;">Published <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time></div>{% endif %}
     <h1 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:clamp(32px,4.6vw,48px); line-height:1.1; letter-spacing:-0.02em; color:#2B3052; margin:0 0 20px;">{{ page.title }}</h1>
+    <div style="display:flex; align-items:center; gap:12px; padding:20px 0; margin:0 0 28px; border-top:1px solid #E7E9F0; border-bottom:1px solid #E7E9F0;">
+      <span style="width:44px; height:44px; border-radius:50%; overflow:hidden; flex-shrink:0; background:#F3F3F3;"><img width="180" height="164" src="{{ '/assets/adam-gent-header.webp' | relative_url }}" alt="Adam Gent" style="width:100%; height:100%; object-fit:cover; object-position:50% 25%; display:block;"></span>
+      <div style="line-height:1.3;">
+        <div style="font-family:'Inter Tight',sans-serif; font-weight:600; font-size:15px; color:#2B3052;">Adam Gent</div>
+        <div style="font-size:13px; color:#8489A2;">Technical SEO Consultant{% if page.read_time %} &middot; {{ page.read_time }}{% endif %}</div>
+      </div>
+    </div>
     {% for para in page.summary %}
     <p style="font-size:20px; line-height:1.55; color:#5A607F; margin:0 0 {% if forloop.last %}32{% else %}16{% endif %}px;">{{ para }}</p>
     {% endfor %}
