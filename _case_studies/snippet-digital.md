@@ -4,8 +4,8 @@ client: Snippet Digital
 industry: Agency · Meal Planning App
 date: 2026-08-31
 order: 1
-logo: /assets/logos/mono/11-snippet-digital.webp
-logo_height: 36
+logo: /assets/logos/mono/11-snippet-digital-v2.webp
+logo_height: 40
 description: "How a prioritised technical SEO roadmap doubled a meal planning app's SEO traffic, from 600,000 to 1.2 million visits a month, by cutting indexed pages by 67%."
 summary:
   - "Snippet Digital brought me in to fix index bloat on a client's meal planning website."
