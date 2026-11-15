@@ -1,6 +1,6 @@
 ---
 title: "How to simulate Googlebot using Chrome"
-description: "The Chromebot technique: a simple, no-code way to set up Google Chrome so it behaves like the Googlebot crawler, to quickly replicate and debug crawling and indexing issues."
+description: "I created a way to replicate Googlebot to debug crawling issues called the Chromebot technique."
 date: 2021-03-22
 category: Technical SEO
 read_time: "11 min read"
