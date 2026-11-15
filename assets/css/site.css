@@ -305,3 +305,8 @@ img { max-width: 100%; }
   .gos-about-photos { grid-template-columns: 1fr !important; grid-template-rows: none !important; }
   .gos-about-photos img { height: auto !important; aspect-ratio: 4 / 3; }
 }
+
+/* Ahrefs chart frames: widen into the card's padding on phones so the chart is readable */
+@media (max-width: 640px) {
+  .gos-chart-frame { margin-left: -36px; margin-right: -36px; padding: 6px !important; border-radius: 10px !important; }
+}
