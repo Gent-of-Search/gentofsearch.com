@@ -88,6 +88,9 @@ read_time: "11 min read"
   <li>Right-click on a web page and click Inspect (or CTRL+SHIFT+I).</li>
   <li>Navigate to the right side, click on the 3 vertical dots, and select the far left dock side option.</li>
 </ol>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-devtools-dock-side.webp' | relative_url }}" width="1024" height="343" alt="Chrome DevTools menu with the undock into separate window option highlighted under Dock side." loading="lazy">
+</figure>
 <p>The Web Dev Tools console is now in a separate window.</p>
 
 <h3>2. User-agent token</h3>
@@ -95,15 +98,34 @@ read_time: "11 min read"
 <p><strong>Command Menu</strong></p>
 <p>Use the Command Menu (CTRL + Shift + P) and type "Show network conditions" to open the network conditions tab in DevTools and update the user-agent.</p>
 <p><strong>Manual</strong></p>
-<ol>
-  <li>Navigate to the separate Web Dev Tools window and press the Esc button. This will open up the console.</li>
-  <li>Click on the three little dots on the left of the console tab.</li>
-  <li>In the list of options, click on Network conditions. This will open the network conditions tab next to the console tab.</li>
-  <li>In the network conditions tab scroll down and untick the "User agent: Use browser default" option.</li>
-  <li>Google Chrome will now allow you to change the user-agent string of your browser to Googlebot or Googlebot Smartphone.</li>
-</ol>
+<p>Navigate to the separate Web Dev Tools window and press the Esc button. This will open up the console.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-devtools-console-open.webp' | relative_url }}" width="1024" height="546" alt="Chrome DevTools in a separate window with the console drawer open at the bottom." loading="lazy">
+</figure>
+<p>Click on the three little dots on the left of the console tab.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-console-three-dots.webp' | relative_url }}" width="549" height="127" alt="The three dots menu on the left of the DevTools console tab." loading="lazy">
+</figure>
+<p>In the list of options, click on Network conditions. This will open the network conditions tab next to the console tab.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-network-conditions-menu.webp' | relative_url }}" width="761" height="608" alt="DevTools drawer menu with Network conditions highlighted." loading="lazy">
+</figure>
+<p>In the network conditions tab, untick the user agent "Use browser default" option (called "Select automatically" in older versions of Chrome).</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-user-agent-select-automatically.webp' | relative_url }}" width="893" height="292" alt="Network conditions tab with the user agent Select automatically checkbox unticked." loading="lazy">
+</figure>
+<p>Google Chrome will now allow you to change the user-agent string of your browser to Googlebot or Googlebot Smartphone.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-user-agent-dropdown.webp' | relative_url }}" width="679" height="551" alt="User agent dropdown in DevTools showing the Googlebot, Googlebot Desktop and Googlebot Smartphone options." loading="lazy">
+</figure>
 <p>I usually set it to Googlebot Smartphone, as Google uses mobile-first indexing by default. Although I'd recommend checking in Google Search Console to see which Googlebot crawls your website most often.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-googlebot-smartphone-selected.webp' | relative_url }}" width="790" height="242" alt="Network conditions tab with Googlebot Smartphone selected as the user agent." loading="lazy">
+</figure>
 <p>The Googlebot user-agent will automatically use the <a href="https://www.chromestatus.com/features/schedule" target="_blank" rel="noopener">dev beta Chrome version</a>, not the stable version. This isn't usually an issue for 99% of websites, but if you need to you can input the custom user-agent from stable Chrome.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-googlebot-user-agent-chrome-version.webp' | relative_url }}" width="1281" height="121" alt="Googlebot Smartphone user-agent string with the Chrome version number highlighted." loading="lazy">
+</figure>
 <p>Now you've changed the user-agent, close the console (press Esc again).</p>
 
 <h3>3. Enable stateless crawling</h3>
@@ -113,20 +135,36 @@ read_time: "11 min read"
 
 <p><strong>Disable the cache</strong></p>
 <p>Use the Command Menu (CTRL + Shift + P) and type "Disable cache" to disable the cache when DevTools is open. Or, manually, go to the Network panel in DevTools and check "Disable cache".</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-disable-cache.webp' | relative_url }}" width="748" height="140" alt="Disable cache ticked in the Chrome DevTools Network panel." loading="lazy">
+</figure>
 
 <p><strong>Disable cookies</strong></p>
 <p>In Chrome navigate to <em>chrome://settings/cookies</em>. In the cookies settings choose the option to "Block third-party cookies".</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-disable-cookies.webp' | relative_url }}" width="850" height="849" alt="Chrome cookies and other site data settings page." loading="lazy">
+</figure>
 
 <p><strong>Disable location</strong></p>
 <p>In Chrome navigate to <em>chrome://settings/content/location</em>. Toggle "Ask before accessing (recommended)" to "Blocked".</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-disable-location.webp' | relative_url }}" width="891" height="530" alt="Chrome location settings page with access blocked." loading="lazy">
+</figure>
 
 <h3>4. Disable Service Workers</h3>
 <p>Googlebot disables interfaces relying on the <a href="https://developers.google.com/search/docs/guides/rendering#disabled-interfaces" target="_blank" rel="noopener">Service Worker specification</a>. This means it bypasses the Service Worker, which might cache data, and fetches URLs from the server.</p>
 <p>To do this navigate to the Application panel in DevTools, go to Service Workers, and check the "Bypass for network" option.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-service-workers-bypass.webp' | relative_url }}" width="880" height="272" alt="Application panel in Chrome DevTools with Service Workers selected and Bypass for network ticked." loading="lazy">
+</figure>
 <p>Once disabled the browser will be forced to always request a resource from the network and not use a Service Worker.</p>
 
 <h3>5. Disable JavaScript</h3>
 <p>The Googlebot crawler <a href="https://www.stateofdigital.com/javascript-seo-crawling-indexing/" target="_blank" rel="noopener">does not execute any JavaScript</a> when crawling.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-wrs-10000ft-view.webp' | relative_url }}" width="950" height="535" alt="Slide showing crawled HTML and resources going into the Web Rendering Service to produce the rendered DOM tree." loading="lazy">
+  <figcaption>Googlebot &amp; JavaScript: A Closer Look at the WRS, TechSEO Boost 2019</figcaption>
+</figure>
 <p>The crawling and rendering sub-systems are further explained in the <a href="https://developers.google.com/search/docs/guides/javascript-seo-basics#how-googlebot-processes-javascript" target="_blank" rel="noopener">Understand the JavaScript SEO basics guide</a> and <a href="https://www.youtube.com/watch?v=Qxd_d9m9vzo" target="_blank" rel="noopener">Googlebot &amp; JavaScript: A Closer Look at the WRS</a> at TechSEO Boost 2019.</p>
 
 <figure>
@@ -139,14 +177,27 @@ read_time: "11 min read"
 <p><strong>Command Menu</strong></p>
 <p>Use the Command Menu (CTRL + Shift + P) and type "Disable JavaScript" to quickly disable JavaScript.</p>
 <p><strong>Manual</strong></p>
-<p>To disable JavaScript in Chrome, navigate to DevTools and click on the settings cog. Then check the "Disable JavaScript" box.</p>
+<p>To disable JavaScript in Chrome, navigate to DevTools and click on the settings cog.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-devtools-settings-cog.webp' | relative_url }}" width="880" height="258" alt="The settings cog in the top right of Chrome DevTools." loading="lazy">
+</figure>
+<p>Then check the "Disable JavaScript" box.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-disable-javascript-setting.webp' | relative_url }}" width="820" height="485" alt="Chrome DevTools settings with Disable JavaScript ticked under Debugger." loading="lazy">
+</figure>
 <p>Now when you use your Googlebot simulator you'll only be inspecting the initial server-side HTML. This will help you understand if there are any link, content, or HTTP status code issues causing the crawler problems.</p>
 
 <h3>6. Network panel</h3>
 <p>Finally, it is time to configure the Network panel. It is in this area of DevTools where you will be spending a lot of time as Googlebot.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-network-panel.webp' | relative_url }}" width="1024" height="292" alt="Chrome DevTools Network panel showing status, scheme, domain, remote address, type, size, time and priority columns." loading="lazy">
+</figure>
 <p>The <a href="https://developer.chrome.com/docs/devtools/network/" target="_blank" rel="noopener">Network panel</a> is used to make sure resources are being fetched and downloaded. It is in this panel that you can inspect the metadata, HTTP headers, content, etc. of each individual URL downloaded when requesting a page.</p>
 <p>However, before we can inspect the resources (HTML, CSS, IMG) downloaded from the server like Googlebot, we need to update the columns to display the most important information in the panel.</p>
 <p>Go to the Network panel in DevTools (now a separate window). On the table in the panel, right-click on the column headers and select the headings listed below to be added as columns (remove any others not listed).</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-network-columns.webp' | relative_url }}" width="1024" height="409" alt="Right-click menu on the Network panel column headers with Status, Scheme, Domain, Remote Address, Type, Size, Time and Priority ticked." loading="lazy">
+</figure>
 <p>I have also provided a brief explanation of each heading and why they should be added.</p>
 
 <table>
@@ -174,6 +225,9 @@ read_time: "11 min read"
 
 <h2>I, Googlebot Chrome</h2>
 <p>Once your IP address is switched you are ready to go and have your own Googlebot simulator.</p>
+<figure>
+  <img src="{{ '/assets/blog/chromebot-angular-test.webp' | relative_url }}" width="880" height="466" alt="The Googlebot simulator in action: angular.io with JavaScript disabled next to the DevTools Network panel." loading="lazy">
+</figure>
 <p>If you want to test to see if it works, go to <a href="https://angular.io/" target="_blank" rel="noopener">angular.io</a> or <a href="https://www.eventbrite.com/" target="_blank" rel="noopener">eventbrite.com</a>. These websites require JavaScript to load content and links. With JavaScript disabled these sites won't load content properly in the interface.</p>
 
 <h2>Frequently asked questions</h2>
