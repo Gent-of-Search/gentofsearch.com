@@ -1,5 +1,5 @@
 ---
-title: "How to create a free Googlebot Smartphone simulator in Chrome"
+title: "How to simulate Googlebot using Chrome"
 description: "The Chromebot technique: a simple, no-code way to set up Google Chrome so it behaves like the Googlebot crawler, to quickly replicate and debug crawling and indexing issues."
 date: 2021-03-22
 category: Technical SEO
