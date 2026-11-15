@@ -14,6 +14,8 @@ read_time: "11 min read"
 
 <p><a href="#how-to-set-up-the-googlebot-simulator">Jump to the Googlebot Chrome technique</a>.</p>
 
+<hr>
+
 <h2>What is the Chromebot technique?</h2>
 <p>The Chromebot technique is a simple non-code solution which allows a human to configure Chrome settings so they act like a Googlebot crawler (not rendering).</p>
 <p>It can help SEO specialists identify unique crawling and indexing issues on a website.</p>
@@ -34,6 +36,8 @@ read_time: "11 min read"
 
 <h2>What do you need for this technique?</h2>
 <p>All you need is <a href="https://www.google.com/chrome/canary/" target="_blank" rel="noopener">Google Chrome Canary</a> and a Virtual Private Network (VPN).</p>
+
+<hr>
 
 <h2>Why simulate Googlebot in Google Chrome?</h2>
 <p>There are four core benefits to using this technique which I will briefly explain.</p>
@@ -64,6 +68,8 @@ read_time: "11 min read"
 <p>The web is becoming more complex and dynamic.</p>
 <p>It's important to remember that when debugging crawling and indexing issues you are a human and Googlebot is a machine. Many modern sites treat these two users differently.</p>
 <p>Google Chrome, which was designed to help humans navigate the web, can now help a human view a site like a bot.</p>
+
+<hr>
 
 <h2 id="how-to-set-up-the-googlebot-simulator">How to set up the Googlebot simulator</h2>
 <p>Right, enough of the why. Let me explain how to create your own Googlebot simulator.</p>
@@ -217,11 +223,15 @@ read_time: "11 min read"
   </tbody>
 </table>
 
+<hr>
+
 <h2>Switch to a US IP address</h2>
 <p>Once you have updated the Network panel columns in Chrome DevTools your Googlebot simulator is almost ready.</p>
 <p>If you want to use it straight away you need to switch to a US IP address.</p>
 <p>Googlebot crawls from the <a href="https://twitter.com/googlewmc/status/930013394492633088" target="_blank" rel="noopener">United States of America</a>. For this reason, I'd always recommend changing your IP address to the US when using your Googlebot simulator.</p>
 <p>It's the best way to understand how your website behaves when visited by Googlebot. For example, if a site is blocking visitors with US IP addresses or geo-redirects visitors based on their location, this might cause issues with Google crawling and indexing a website.</p>
+
+<hr>
 
 <h2>I, Googlebot Chrome</h2>
 <p>Once your IP address is switched you are ready to go and have your own Googlebot simulator.</p>
@@ -229,6 +239,8 @@ read_time: "11 min read"
   <img src="{{ '/assets/blog/chromebot-angular-test.webp' | relative_url }}" width="880" height="466" alt="The Googlebot simulator in action: angular.io with JavaScript disabled next to the DevTools Network panel." loading="lazy">
 </figure>
 <p>If you want to test to see if it works, go to <a href="https://angular.io/" target="_blank" rel="noopener">angular.io</a> or <a href="https://www.eventbrite.com/" target="_blank" rel="noopener">eventbrite.com</a>. These websites require JavaScript to load content and links. With JavaScript disabled these sites won't load content properly in the interface.</p>
+
+<hr>
 
 <h2>Frequently asked questions</h2>
 
