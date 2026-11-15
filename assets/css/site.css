@@ -287,3 +287,15 @@ img { max-width: 100%; }
   .gos-footer-grid { grid-template-columns: repeat(2, 1fr) !important; }
   .gos-footer-brand { grid-column: 1 / -1; }
 }
+
+/* Mobile Services / Industries drop-downs inside the burger menu */
+.nav-mobile-group { display: flex; flex-direction: column; border-bottom: 1px solid rgba(255,255,255,0.07); }
+.nav-mobile-group[open] { padding-bottom: 6px; }
+.nav-mobile-summary {
+  display: flex; align-items: center; justify-content: space-between;
+  list-style: none; cursor: pointer; border-bottom: none;
+}
+.nav-mobile-summary::-webkit-details-marker { display: none; }
+.nav-mobile-chev { transition: transform .18s ease; opacity: .7; }
+.nav-mobile-group[open] .nav-mobile-chev { transform: rotate(180deg); }
+.nav-mobile-group .nav-mobile-sub { display: block; border-bottom: none; padding-top: 11px; padding-bottom: 11px; }
