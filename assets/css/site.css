@@ -313,5 +313,5 @@ img { max-width: 100%; }
   .gos-chart-frame { margin-left: -36px; margin-right: -36px; padding: 6px !important; border-radius: 10px !important; }
 }
 
-/* Blog post title: runs wider than the 720px article column (to the right only) so titles fit on fewer lines */
-.post-title { margin-right: calc(-1 * clamp(0px, (100vw - 768px) / 2, 280px)); }
+/* Blog post title: centred and wider than the 720px article column (equally on both sides) so titles fit on fewer lines */
+.post-title { --gos-title-bleed: clamp(0px, (100vw - 768px) / 2, 140px); margin-left: calc(-1 * var(--gos-title-bleed)) !important; margin-right: calc(-1 * var(--gos-title-bleed)) !important; text-align: center; }
