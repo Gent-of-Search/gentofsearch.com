@@ -314,4 +314,4 @@ img { max-width: 100%; }
 }
 
 /* Blog post title: centred and wider than the 720px article column (equally on both sides) so titles fit on fewer lines */
-.post-title { --gos-title-bleed: clamp(0px, (100vw - 768px) / 2, 140px); margin-left: calc(-1 * var(--gos-title-bleed)) !important; margin-right: calc(-1 * var(--gos-title-bleed)) !important; text-align: center; }
+.post-title { --gos-title-bleed: clamp(0px, (100vw - 768px) / 2, 200px); margin-left: calc(-1 * var(--gos-title-bleed)) !important; margin-right: calc(-1 * var(--gos-title-bleed)) !important; text-align: center; }
