@@ -299,3 +299,9 @@ img { max-width: 100%; }
 .nav-mobile-chev { transition: transform .18s ease; opacity: .7; }
 .nav-mobile-group[open] .nav-mobile-chev { transform: rotate(180deg); }
 .nav-mobile-group .nav-mobile-sub { display: block; border-bottom: none; padding-top: 11px; padding-bottom: 11px; }
+
+/* Home About photos: stack one per row on small screens */
+@media (max-width: 640px) {
+  .gos-about-photos { grid-template-columns: 1fr !important; grid-template-rows: none !important; }
+  .gos-about-photos img { height: auto !important; aspect-ratio: 4 / 3; }
+}
