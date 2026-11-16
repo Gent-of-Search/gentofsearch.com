@@ -5,14 +5,14 @@ nav_active: blog
 <!-- ===================== POST HEADER ===================== -->
 <header style="padding:60px 0 0;">
   <div style="width:min(720px,100% - 48px); margin:0 auto;">
-    <nav aria-label="Breadcrumb" style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#8489A2; margin-bottom:26px;">
+    <nav aria-label="Breadcrumb" style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:#8489A2; margin-bottom:30px;">
       <a href="{{ '/' | relative_url }}" class="crumb-link" style="color:#0F7350; text-decoration:none;">Home</a>
       <span style="color:#C3C7D4;">/</span>
       <a href="{{ '/blog/' | relative_url }}" class="crumb-link" style="color:#0F7350; text-decoration:none;">Blog</a>
       <span style="color:#C3C7D4;">/</span>
       {% if page.category %}<span style="color:#8489A2;">{{ page.category }}</span>{% else %}<span style="color:#8489A2;">{{ page.title }}</span>{% endif %}
     </nav>
-    <h1 class="post-title" style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:clamp(34px,3.8vw,44px); line-height:1.08; letter-spacing:-0.02em; color:#2B3052; margin:0 0 20px;">{{ page.title }}</h1>
+    <h1 class="post-title" style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:clamp(34px,3.8vw,44px); line-height:1.08; letter-spacing:-0.02em; color:#2B3052; margin:0 0 23px;">{{ page.title }}</h1>
     <div style="padding:14px 0; margin:0; border-top:1px solid #E7E9F0; border-bottom:1px solid #E7E9F0;">
     <div style="overflow:hidden;">
       <div style="display:flex; flex-wrap:wrap; row-gap:6px; margin-left:-25px; font-size:15px; line-height:1.4; color:#5A607F;">
