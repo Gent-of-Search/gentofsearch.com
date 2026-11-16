@@ -3,7 +3,7 @@ title: "Why You Should Still Invest in SEO"
 description: "AI search is growing, but Google still drives the revenue, traffic and decisions. The data on why businesses should still invest in SEO."
 date: 2026-11-16
 category: SEO Strategy
-read_time: "14 min read"
+read_time: "12 min read"
 ---
 
 <p>Every few months someone declares it. SEO is dead.</p>
@@ -225,37 +225,3 @@ read_time: "14 min read"
   <li><strong>People keep coming back.</strong> Over 95% of Americans use a traditional search engine every month. Wherever customers discover you, they check Google before they decide.</li>
 </ol>
 <p>SEO isn't dead. Google is still where people search, and where the money is. AI search is growing, but as the data shows, SEO is here to stay (for now).</p>
-
-<hr>
-
-<h2>Sources</h2>
-<ul>
-  <li><a href="https://sparktoro.com/blog/new-research-google-search-grew-20-in-2024-receives-373x-more-searches-than-chatgpt/" target="_blank" rel="noopener">New Research: Google Search Grew 20%+ in 2024; receives ~373X more searches than ChatGPT</a> (SparkToro, March 2025)</li>
-  <li><a href="https://sparktoro.com/blog/new-research-search-happens-everywhere-an-analysis-of-41-websites-with-significant-search-activity/" target="_blank" rel="noopener">New Research: Search Happens Everywhere, an analysis of 41 websites</a> (SparkToro, March 2026)</li>
-  <li><a href="https://signal.zyppy.com/p/we-opted-out-of-google-ai-search" target="_blank" rel="noopener">We opted out of Google AI search</a> (Zyppy Signal, November 2026)</li>
-  <li><a href="https://blog.google/products-and-platforms/products/search/ai-search-driving-more-queries-higher-quality-clicks/" target="_blank" rel="noopener">AI in Search is driving more queries and higher quality clicks</a> (Google, August 2025)</li>
-  <li><a href="https://seranking.com/blog/ai-traffic-research-study/" target="_blank" rel="noopener">AI traffic grew 16x from 2024 to 2026</a> (SE Ranking, June 2026)</li>
-  <li><a href="https://www.conductor.com/academy/aeo-geo-benchmarks-report/" target="_blank" rel="noopener">The 2026 AEO / GEO Benchmarks Report</a> (Conductor)</li>
-  <li><a href="https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm" target="_blank" rel="noopener">Alphabet Q3 2026 earnings release</a> (SEC filing)</li>
-  <li><a href="https://searchlab.nl/en/statistics/search-engine-market-share-statistics-2026" target="_blank" rel="noopener">Search engine market share statistics 2026</a> (StatCounter data)</li>
-  <li><a href="https://www.npr.org/2024/08/05/nx-s1-5064624/google-justice-department-antitrust-search" target="_blank" rel="noopener">Judge rules Google is a monopolist</a> (NPR, August 2024)</li>
-  <li><a href="https://www.thinkwithgoogle.com/intl/en-gb/consumer-insights/consumer-journey/the-consumer-decision-making-process" target="_blank" rel="noopener">The consumer decision-making process: the messy middle</a> (Think with Google)</li>
-  <li><a href="https://www.similarweb.com/blog/research/market-research/most-visited-websites/" target="_blank" rel="noopener">Most visited websites</a> (Similarweb)</li>
-  <li><a href="https://blog.google/intl/en-in/company-news/technology/sundar-pichai-io-2026/" target="_blank" rel="noopener">I/O 2026: Welcome to the agentic Gemini era</a> (Google, May 2026)</li>
-  <li><a href="https://sparktoro.com/blog/new-research-20-of-americans-use-ai-tools-10x-month-but-growth-is-slowing-and-traditional-search-hasnt-dipped/" target="_blank" rel="noopener">New Research: 20% of Americans use AI tools 10X+/month, but growth is slowing and traditional search hasn't dipped</a> (SparkToro, August 2025)</li>
-  <li><a href="https://sparktoro.com/blog/how-much-is-your-audience-searching-google-vs-prompting-ai-tools-sparktoros-answers-just-got-an-upgrade/" target="_blank" rel="noopener">How much is your audience searching Google vs. prompting AI tools?</a> (SparkToro, March 2026)</li>
-  <li><a href="https://sparktoro.com/blog/if-search-captures-demand-public-evidence-creates-it/" target="_blank" rel="noopener">If Search Captures Demand, Public Evidence Creates It</a> (SparkToro, April 2026)</li>
-  <li><a href="https://ppc.land/ai-still-under-2-but-growing-datos-q1-2026-state-of-search-report/" target="_blank" rel="noopener">AI still under 2% but growing: Datos Q1 2026 State of Search</a> (PPC Land, on Datos and SparkToro data)</li>
-  <li><a href="https://ahrefs.com/blog/ai-search-traffic-conversions-ahrefs/" target="_blank" rel="noopener">Does AI Search Traffic Convert Better Than Traditional Search? For Ahrefs, Yes: 0.5% of Visitors Drove 12.1% of Signups</a> (Ahrefs, June 2025)</li>
-  <li><a href="https://www.semrush.com/blog/ai-search-seo-traffic-study/" target="_blank" rel="noopener">AI search SEO traffic study</a> (Semrush, July 2025)</li>
-  <li><a href="https://searchenginejournal.com/ai-search-isnt-replacing-google-its-layering-on-top-similarweb-data/583378/" target="_blank" rel="noopener">AI search isn't replacing Google, it's layering on top: Similarweb data</a> (Search Engine Journal, 2026)</li>
-  <li><a href="https://www.marketbeat.com/instant-alerts/transcript-ziff-davis-q3-earnings-call-highlights-2026-11-06/" target="_blank" rel="noopener">Ziff Davis Q3 2026 earnings call highlights</a> (MarketBeat, November 2026)</li>
-  <li><a href="https://searchenginejournal.com/ziff-davis-organic-google-referrals-decline/596279" target="_blank" rel="noopener">Ziff Davis organic Google referrals decline</a> (Search Engine Journal, November 2026)</li>
-  <li><a href="https://ahrefs.com/blog/ai-overviews-on-branded-searches/" target="_blank" rel="noopener">AI Overviews currently appear for 83% of branded searches</a> (Ahrefs, 2026)</li>
-  <li><a href="https://ahrefs.com/blog/ai-overview-brand-correlation/" target="_blank" rel="noopener">An Analysis of AI Overview Brand Visibility Factors (75K Brands Studied)</a> (Ahrefs)</li>
-  <li><a href="https://graphite.io/research/debunking-the-myth-that-seo-traffic-has-dramatically-declined" target="_blank" rel="noopener">Debunking the myth that SEO traffic has dramatically declined</a> (Graphite, January 2026)</li>
-  <li><a href="https://detailed.com/revenue/" target="_blank" rel="noopener">Digital Goliath Revenue tracker</a> (Detailed)</li>
-  <li><a href="https://searchengineland.com/google-now-handles-2-999-trillion-searches-per-year-250247" target="_blank" rel="noopener">Google now handles at least 2 trillion searches per year</a> (Search Engine Land, 2016)</li>
-  <li><a href="https://searchengineland.com/google-5-trillion-searches-per-year-452928" target="_blank" rel="noopener">Google now sees more than 5 trillion searches per year</a> (Search Engine Land, March 2025)</li>
-  <li><a href="https://hosting.com/blog/the-most-visited-websites-every-year-since-1995/" target="_blank" rel="noopener">The most visited websites every year since 1995</a> (Hosting.com)</li>
-</ul>
