@@ -42,6 +42,12 @@ read_time: "11 min read"
 <h2>Why simulate Googlebot in Google Chrome?</h2>
 <p>There are four core benefits to using this technique which I will briefly explain.</p>
 
+<figure>
+  <video controls preload="metadata" playsinline width="1280" height="698" aria-label="Video: why simulate the Googlebot crawler in Chrome">
+    <source src="{{ '/assets/blog/chromebot-why-simulate.mp4' | relative_url }}#t=0.5" type="video/mp4">
+  </video>
+</figure>
+
 <h3>Debugging in Google Chrome</h3>
 <p>I have debugged hundreds of websites in my time at DeepCrawl. Third party web crawling tools are amazing but I've always found that they have limits.</p>
 <p>When trying to interpret results from these tools I always turn to Chrome to help understand and debug complex issues.</p>
@@ -73,6 +79,12 @@ read_time: "11 min read"
 
 <h2 id="how-to-set-up-the-googlebot-simulator">How to set up the Googlebot simulator</h2>
 <p>Right, enough of the why. Let me explain how to create your own Googlebot simulator.</p>
+
+<figure>
+  <video controls preload="metadata" playsinline width="1280" height="720" aria-label="Video: setting up the Googlebot simulator in Chrome">
+    <source src="{{ '/assets/blog/chromebot-setup-walkthrough.mp4' | relative_url }}#t=0.5" type="video/mp4">
+  </video>
+</figure>
 
 <h3>Download Google Chrome</h3>
 <p>I'd recommend downloading <a href="https://www.google.com/chrome/canary/" target="_blank" rel="noopener">Chrome Canary</a> and not using your own Google Chrome browser (or if you've switched to Firefox then use Google Chrome).</p>

@@ -132,6 +132,7 @@ img { max-width: 100%; }
 .article th { background:#F3F3F3; font-family:'Inter Tight',sans-serif; font-weight:600; color:#2B3052; }
 .article figure { margin:30px 0 32px; }
 .article figure img { display:block; width:100%; height:auto; border-radius:12px; border:1px solid #E7E9F0; }
+.article figure video { display:block; width:100%; height:auto; border-radius:12px; border:1px solid #E7E9F0; background:#000; }
 .article figure.dark { background:#1C1C1C; border-radius:14px; padding:14px; }
 .article figure.dark img { border:0; border-radius:6px; }
 .article hr { border: 0; height: 2px; background: #0F7350; margin: 52px 0; }
