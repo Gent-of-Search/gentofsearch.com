@@ -106,7 +106,7 @@ read_time: "12 min read"
 </figure>
 <p>Google did lose ground.</p>
 <p>Its US share fell 3.5 points during 2025 (about 2 points in the EU and UK). But that share mostly went to Amazon, Bing and YouTube, not to ChatGPT, according to SparkToro.</p>
-<p>On the traditional measure, Google's position looks even stronger. <a href="https://searchlab.nl/en/statistics/search-engine-market-share-statistics-2026" target="_blank" rel="noopener">StatCounter</a> puts its worldwide search market share at 91% in October 2026, rising to 95.68%.</p>
+<p>On the traditional measure, Google's position looks even stronger. <a href="https://searchlab.nl/en/statistics/search-engine-market-share-statistics-2026" target="_blank" rel="noopener">StatCounter</a> puts its worldwide search market share at 91% in October 2026.</p>
 <figure>
   <img src="{{ '/assets/blog/why-invest-seo-statcounter-search-share.png' | relative_url }}" width="1400" height="740" alt="Line chart: worldwide search engine market share, all devices, October 2025 to October 2026. Google stays between 89.9% and 91.3% every month, ending at 91.0%. All other search engines combined stay between 8.7% and 10.2%, ending at 8.9%" loading="lazy">
   <figcaption class="source">Source: Gent of Search chart using <a href="https://gs.statcounter.com/search-engine-market-share" target="_blank" rel="noopener">StatCounter Global Stats</a> data, search engine market share worldwide, October 2025 to October 2026.</figcaption>
