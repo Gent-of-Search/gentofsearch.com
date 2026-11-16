@@ -136,6 +136,11 @@ read_time: "14 min read"
 </ul>
 <p>Within an hour of opting out, Zyppy's AI search impressions dropped to zero. Its clicks from Google fell with them.</p>
 
+<figure>
+  <img src="{{ '/assets/blog/why-invest-seo-zyppy-search-console.webp' | relative_url }}" width="848" height="369" alt="Google Search Console chart showing Zyppy's AI search impressions dropping to zero after opting out on 1 September 2026 and recovering after opting back in on 29 September" loading="lazy">
+  <figcaption class="source">Source: Cyrus Shepard, <a href="https://signal.zyppy.com/p/we-opted-out-of-google-ai-search" target="_blank" rel="noopener">We opted out of Google AI search</a>, Zyppy Signal, November 2026.</figcaption>
+</figure>
+
 <p>The reason is click-through rate.</p>
 <p>AI search features made up about 10% of Zyppy's search impressions. But they earned a click-through rate of about 0.9%, against 0.4% for the site's search results overall.</p>
 <p>That's more than double. So 10% of impressions drove about 21% of all search clicks.</p>
