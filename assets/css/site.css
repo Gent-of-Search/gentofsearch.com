@@ -317,3 +317,9 @@ img { max-width: 100%; }
 
 /* Blog post title: centred and wider than the 720px article column (equally on both sides) so titles fit on fewer lines */
 .post-title { --gos-title-bleed: clamp(0px, (100vw - 768px) / 2, 200px); margin-left: calc(-1 * var(--gos-title-bleed)) !important; margin-right: calc(-1 * var(--gos-title-bleed)) !important; text-align: center; }
+
+/* ---------- Blog: source captions and takeaway boxes ---------- */
+.article figcaption.source { text-align:left; font-family:inherit; font-size:14px; line-height:1.55; color:#5A607F; font-style:italic; }
+.article blockquote.takeaway { margin:32px 0; padding:24px 28px; background:#F4FAF7; border:1px solid #D5EBE1; border-left:4px solid #0F7350; border-radius:12px; font-size:17px; }
+.article blockquote.takeaway p { margin:0 0 12px; }
+.article blockquote.takeaway p:last-child { margin-bottom:0; }
