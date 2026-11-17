@@ -4,6 +4,8 @@ description: "AI search is growing, but Google still drives the revenue, traffic
 date: 2026-11-16
 category: SEO Strategy
 read_time: "12 min read"
+image: /assets/blog/why-invest-seo-share.png
+image_alt: "Bar chart: among companies that rely on Google organic search, product businesses grew revenue 12.4% year on year, listings 5.0% and publishers fell 10.6%"
 ---
 
 <p>A lot of businesses are hesitant to invest in the SEO channel.</p>
