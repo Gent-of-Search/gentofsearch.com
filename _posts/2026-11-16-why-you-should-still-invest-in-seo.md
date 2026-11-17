@@ -19,7 +19,7 @@ read_time: "12 min read"
 <p>A <a href="https://detailed.com/revenue/" target="_blank" rel="noopener">Digital Goliath Revenue tracker</a> from Detailed shows that there has been a decline in Google organic search traffic. But revenue continues to grow.</p>
 <p>It follows 100 digital-first public companies, alongside their organic search traffic. <strong>Their combined revenue reached $65.92bn in Q2 2026, up 12.1% year on year.</strong></p>
 <figure>
-  <img src="{{ '/assets/blog/why-invest-seo-detailed-revenue-vs-traffic.jpg' | relative_url }}" width="1400" height="553" alt="Detailed chart: combined quarterly revenue of 100 digital-first public companies rose from about $50B in Q1 2023 to $65.9B in 2026, while their average monthly search traffic (Ahrefs estimates) rose from about 13M to a peak above 31M in 2025, then fell to 25.0M" loading="lazy">
+  <img src="{{ '/assets/blog/why-invest-seo-detailed-revenue-vs-traffic.webp' | relative_url }}" width="2000" height="880" alt="Chart: combined quarterly revenue of 100 digital-first public companies rose from $59.4B in Q2 2025 to $65.9B in Q2 2026, while their average search traffic (Ahrefs estimates) fell from 31.1M to 25.0M over the same period" loading="lazy">
   <figcaption class="source">Source: <a href="https://detailed.com/revenue/" target="_blank" rel="noopener">Digital Goliath Revenue tracker</a>, Detailed, 2026. Search traffic estimates via Ahrefs.</figcaption>
 </figure>
 <p>However, what is interesting is the revenue tracker uncovers a trend.</p>
