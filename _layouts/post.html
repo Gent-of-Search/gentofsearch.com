@@ -48,7 +48,6 @@ nav_active: blog
 </section>
 
 {% assign more_posts = site.posts | where_exp: "p", "p.url != page.url" | slice: 0, 3 %}
-{% assign more_cases = site.case_studies | sort: "order" | slice: 0, 3 %}
 <!-- ===================== RECOMMENDED ===================== -->
 <section style="padding:64px 0 24px;">
   <div style="width:min(1040px,100% - 48px); margin:0 auto;">
@@ -69,24 +68,6 @@ nav_active: blog
         <h3 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:20px; line-height:1.28; letter-spacing:-0.01em; color:#2B3052; margin:0;"><a href="{{ '/blog/' | relative_url }}" class="cs-card-link" style="color:inherit; text-decoration:none;">See all blog posts &rarr;</a></h3>
       </div>
       {% endif %}
-    </div>
-    {% endif %}
-    {% if more_cases.size > 0 %}
-    <div class="rec-grid gos-g3" style="display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:20px;">
-      {% for c in more_cases %}
-      <div class="cs-card rec-card" style="position:relative; display:flex; flex-direction:column; background:#FFFFFF; border:1px solid #E7E9F0; border-radius:16px; overflow:hidden;">
-        <div style="background:#2B3052; padding:20px; position:relative;">
-          <div style="position:absolute; top:0; left:20px; right:20px; height:1px; background:linear-gradient(90deg, transparent, #0F7350, transparent); opacity:0.7;"></div>
-          <div style="background:#FFFFFF; border-radius:10px; padding:12px 16px; display:flex; align-items:center; justify-content:center; height:64px;">
-            <img src="{{ c.logo | relative_url }}" alt="{{ c.client }} logo" loading="lazy" style="height:{{ c.logo_height | default: 40 | times: 0.8 | round }}px; max-width:100%; width:auto; object-fit:contain;">
-          </div>
-        </div>
-        <div style="padding:22px 24px 24px; display:flex; flex-direction:column; flex:1;">
-          <div style="font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:#0F7350; margin-bottom:12px;">Case study <span style="color:#8489A2;">&middot; {{ c.client }}</span></div>
-          <h3 style="font-family:'Inter Tight',sans-serif; font-weight:700; font-size:20px; line-height:1.28; letter-spacing:-0.01em; color:#2B3052; margin:0;"><a href="{{ c.url | relative_url }}" class="cs-card-link" style="color:inherit; text-decoration:none;">{{ c.title }}</a></h3>
-        </div>
-      </div>
-      {% endfor %}
     </div>
     {% endif %}
   </div>
