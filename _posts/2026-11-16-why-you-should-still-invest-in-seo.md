@@ -18,7 +18,7 @@ image_alt: "Bar chart: among companies that rely on Google organic search, produ
 <blockquote class="takeaway key-takeaways">
   <p><strong>Key takeaways</strong></p>
   <ul>
-    <li><strong>SEO still drives revenue</strong> - Product businesses that rely on Google grew revenue 12.4% year on year.</li>
+    <li><strong>SEO still drives revenue</strong> - The right business (product and listing) can still drive revenue from the SEO channel. Even in the age of AI.</li>
     <li><strong>Google sends the traffic</strong> - Organic search sends roughly 134 visits for every one from AI tools.</li>
     <li><strong>Search is growing</strong> - Google searches per year have grown 5x over the last decade to 5 trillion searches a year.</li>
     <li><strong>Google dominates search</strong> - It still holds 73.7% of US desktop searches and AI tools hold 3.2%.</li>
