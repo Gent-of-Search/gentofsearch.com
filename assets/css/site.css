@@ -323,3 +323,6 @@ img { max-width: 100%; }
 .article blockquote.takeaway { margin:32px 0; padding:24px 28px; background:#F4FAF7; border:1px solid #D5EBE1; border-left:4px solid #0F7350; border-radius:12px; font-size:17px; }
 .article blockquote.takeaway p { margin:0 0 12px; }
 .article blockquote.takeaway p:last-child { margin-bottom:0; }
+.article blockquote.takeaway ul { margin:0; padding-left:20px; }
+.article blockquote.takeaway li { margin:0 0 10px; }
+.article blockquote.takeaway li:last-child { margin-bottom:0; }

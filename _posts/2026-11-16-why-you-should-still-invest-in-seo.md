@@ -15,6 +15,19 @@ image_alt: "Bar chart: among companies that rely on Google organic search, produ
 <p>I want to make it clear that Google Search is still a good opportunity to invest your marketing budget.</p>
 <p>Let's dive in.</p>
 
+<blockquote class="takeaway key-takeaways">
+  <p><strong>Key takeaways</strong></p>
+  <ul>
+    <li><strong>SEO still drives revenue</strong> - Product businesses that rely on Google grew revenue 12.4% year on year.</li>
+    <li><strong>Google sends the traffic</strong> - Organic search sends roughly 134 visits for every one from AI tools.</li>
+    <li><strong>Search is growing</strong> - Google searches per year have grown 5x over the last decade to 5 trillion searches a year.</li>
+    <li><strong>Google dominates search</strong> - It still holds 73.7% of US desktop searches and AI tools hold 3.2%.</li>
+    <li><strong>Google's AI sends better clicks</strong> - Evidence suggests that Google AI features drive better quality clicks to your website.</li>
+    <li><strong>People keep coming back to Google</strong> - It doesn't matter where a customers the journey starts, they check Google before they decide.</li>
+    <li><strong>Keep SEO as your base</strong> - SEO is still a key channel to drive relevant traffic and customers. Especially if you sell a product or service.</li>
+  </ul>
+</blockquote>
+
 <hr>
 
 <h2>1. SEO still drives revenue</h2>
