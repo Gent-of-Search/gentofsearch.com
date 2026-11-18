@@ -190,7 +190,7 @@ image_alt: "Bar chart: among companies that rely on Google organic search, produ
 <h2>7. Google is the final destination people trust</h2>
 <p>People don't move in a straight line from problem to purchase.</p>
 <p>Google's own <a href="https://www.thinkwithgoogle.com/intl/en-gb/consumer-insights/consumer-journey/the-consumer-decision-making-process" target="_blank" rel="noopener">"messy middle" research</a> describes loops of exploring and evaluating across lots of platforms. People start their journeys in lots of places: YouTube, Amazon, Reddit, TikTok, ChatGPT.</p>
-<p>But again and again, research shows they come back to Google to confirm their answers.</p>
+<p>But again and again, <a href="https://sparktoro.com/blog/new-research-20-of-americans-use-ai-tools-10x-month-but-growth-is-slowing-and-traditional-search-hasnt-dipped/" target="_blank" rel="noopener">they come back to Google</a>. And most people still <a href="https://www.attentive.com/state-of-ai-in-retail-2026" target="_blank" rel="noopener">check what AI tells them</a> before they buy.</p>
 <p>The traffic data to Google.com confirms this: <strong>Monthly visits to Google Search have 3x in the last decade.</strong></p>
 <figure>
   <img src="{{ '/assets/blog/why-invest-seo-google-chatgpt-visits-line.png' | relative_url }}" width="1424" height="780" alt="Line chart: monthly web visits from 2015 to 2026. google.com rose from 29.6 billion in 2015 to 88.4 billion in 2026; chatgpt.com rose from zero in 2022 to 6 billion in 2026" loading="lazy">
