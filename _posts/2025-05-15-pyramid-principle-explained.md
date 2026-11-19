@@ -4,6 +4,8 @@ description: "How SEOs can use Barbara Minto's Pyramid Principle, the SCQA frame
 date: 2025-05-15
 category: SEO Strategy
 read_time: "14 min read"
+image: /assets/blog/pyramid-principle-share.png
+image_alt: "Diagram of the Pyramid Principle: a Main Takeaway at the top, three Key Insights below it, and a group of data and information beneath each insight"
 ---
 
 <p>SEO professionals need to be able to communicate complex ideas.</p>
