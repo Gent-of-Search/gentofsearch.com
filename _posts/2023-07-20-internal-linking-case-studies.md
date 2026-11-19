@@ -4,6 +4,10 @@ description: "9 link architecture case studies to help you generate new SEO oppo
 date: 2023-07-20
 category: Technical SEO
 read_time: "7 min read"
+image: /assets/blog/internal-linking-share-card.png
+image_width: 2400
+image_height: 1254
+image_alt: "Bar chart of SEO traffic uplift from internal linking case studies: +175% site architecture overhaul, +100% cross-linking and breadcrumbs, +50% crawlable pagination, +33% server-side links, +25% category cross-links, +11% related article links"
 ---
 
 <p>As SEO professionals, constantly trying to identify opportunities to drive SEO traffic and revenue is a key part of our job.</p>
