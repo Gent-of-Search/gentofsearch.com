@@ -58,7 +58,7 @@ read_time: "7 min read"
 
 <hr>
 
-<h2><a href="https://www.authorityhacker.com/anchor-text/" target="_blank" rel="noopener">The Data-Backed Anchor Text Optimization Formula For Maximum SEO Results</a></h2>
+<h2><a href="https://web.archive.org/web/20250118193155/https://www.authorityhacker.com/anchor-text/" target="_blank" rel="noopener">The Data-Backed Anchor Text Optimization Formula For Maximum SEO Results</a></h2>
 <p><strong>Result:</strong> Plenty of insights into what internal link factors make pages rank in the top 1-3<br>
 <strong>Author:</strong> Michal Ugor<br>
 <strong>Topic:</strong> Website architecture<br>
@@ -76,7 +76,7 @@ read_time: "7 min read"
 </ul>
 <p>What is fascinating about these findings is that many were found in a much larger internal link study by Cyrus Shepard: <a href="https://zyppy.com/seo/internal-links/seo-study/" target="_blank" rel="noopener">23 Million Internal Links – SEO Case Study</a>.</p>
 <p>I'd highly recommend checking out Michal's internal link study for insights on what internal link methods help drive SEO traffic 👇.</p>
-<p><a href="https://www.authorityhacker.com/anchor-text/" target="_blank" rel="noopener">https://www.authorityhacker.com/anchor-text/</a></p>
+<p><a href="https://web.archive.org/web/20250118193155/https://www.authorityhacker.com/anchor-text/" target="_blank" rel="noopener">https://web.archive.org/web/20250118193155/https://www.authorityhacker.com/anchor-text/</a></p>
 
 <hr>
 
