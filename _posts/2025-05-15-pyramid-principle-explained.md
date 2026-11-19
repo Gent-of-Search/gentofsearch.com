@@ -5,6 +5,8 @@ date: 2025-05-15
 category: SEO Strategy
 read_time: "14 min read"
 image: /assets/blog/pyramid-principle-share.png
+image_width: 1200
+image_height: 630
 image_alt: "Diagram of the Pyramid Principle: a Main Takeaway at the top, three Key Insights below it, and a group of data and information beneath each insight"
 ---
 
