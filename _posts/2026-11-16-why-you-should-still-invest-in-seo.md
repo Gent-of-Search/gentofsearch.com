@@ -13,6 +13,7 @@ image_alt: "Bar chart: among companies that rely on Google organic search, produ
 <p>But industry data tells a different story: <strong>Google Search is still where people go for answers, and it's still growing.</strong></p>
 <p>In this article, I'm going to explain why businesses should invest in the SEO channel (in particular Google Search) based on industry trends and data. And explain why it's not all doom and gloom. In fact quite the opposite.</p>
 <p>I want to make it clear that Google Search is still a good opportunity to invest your marketing budget.</p>
+<p>But that's only half the story. In a follow-up post, I explain <a href="{{ '/blog/why-invest-in-ai-search/' | relative_url }}" target="_blank" rel="noopener">why you should invest in AI search</a>, and how AI chatbots are starting to decide who makes the shortlist.</p>
 <p>Let's dive in.</p>
 
 <blockquote class="takeaway key-takeaways">
