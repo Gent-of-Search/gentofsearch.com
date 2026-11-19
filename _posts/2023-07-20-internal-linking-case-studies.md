@@ -196,7 +196,7 @@ read_time: "7 min read"
 
 <hr>
 
-<h2><a href="https://searchengineland.com/case-study-the-tale-of-two-internal-link-tweaks-304453" target="_blank" rel="noopener">The tale of two internal link tweaks</a></h2>
+<h2><a href="https://web.archive.org/web/20241110105434/https://searchengineland.com/case-study-the-tale-of-two-internal-link-tweaks-304453" target="_blank" rel="noopener">The tale of two internal link tweaks</a></h2>
 <p><strong>Result:</strong> Increase in top 10 rankings for target keywords<br>
 <strong>Author:</strong> Dave Davies<br>
 <strong>Topic:</strong> Website architecture<br>
@@ -213,7 +213,7 @@ read_time: "7 min read"
   <li>Reducing link bloat to low-value subcategory pages</li>
 </ul>
 <p>I'd highly recommend checking out Dave's case study if you want to see the value of adding subcategories and product links to an e-commerce homepage 👇.</p>
-<p><a href="https://searchengineland.com/case-study-the-tale-of-two-internal-link-tweaks-304453" target="_blank" rel="noopener">https://searchengineland.com/case-study-the-tale-of-two-internal-link-tweaks-304453</a></p>
+<p><a href="https://web.archive.org/web/20241110105434/https://searchengineland.com/case-study-the-tale-of-two-internal-link-tweaks-304453" target="_blank" rel="noopener">https://web.archive.org/web/20241110105434/https://searchengineland.com/case-study-the-tale-of-two-internal-link-tweaks-304453</a></p>
 
 <hr>
 
