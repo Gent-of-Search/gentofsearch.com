@@ -4,6 +4,10 @@ description: "I created a way to replicate Googlebot to debug crawling issues ca
 date: 2021-03-22
 category: Technical SEO
 read_time: "11 min read"
+image: /assets/blog/chromebot-share-card.png
+image_width: 1200
+image_height: 628
+image_alt: "The Googlebot simulator in action: angular.io with JavaScript disabled next to the Chrome DevTools Network panel"
 ---
 
 <p style="font-size:20px; line-height:1.7; color:#2B3052;">At DeepCrawl I helped <strong>debug thousands of technical SEO issues each year</strong> on some of the largest enterprise websites in the world.</p>
