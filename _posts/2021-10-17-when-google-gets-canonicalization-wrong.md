@@ -4,6 +4,10 @@ description: "In this case study, I found one of my own blog posts had not been 
 date: 2021-10-17
 category: Technical SEO
 read_time: "5 min read"
+image: /assets/blog/canonicalization-share-card.png
+image_width: 2400
+image_height: 1254
+image_alt: "A curious case of canonicalization: the blog post I wanted indexed had every canonical signal but was reported as crawled, currently not indexed, while Google indexed the /author/agent/feed/ RSS feed URL instead"
 ---
 
 <p>In this case study, I found one of my own blog posts had not been indexed by Google. So, naturally being a technical SEO specialist, I investigated it.</p>
