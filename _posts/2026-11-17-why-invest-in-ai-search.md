@@ -4,6 +4,10 @@ description: "AI chatbots like ChatGPT, Gemini, Claude and Perplexity don't send
 date: 2026-11-17
 category: AI Search
 read_time: "13 min read"
+image: /assets/blog/why-invest-ai-search-share-card.png
+image_width: 2400
+image_height: 1254
+image_alt: "Why Invest in AI Search: 51% of B2B software buyers now start research in an AI chatbot, AI referral sessions grew 156% in eight months against 24% for search, and about 1 in 200 website visits come from AI chatbots"
 ---
 
 <p>In my last post, I explained <a href="{{ '/blog/why-you-should-still-invest-in-seo/' | relative_url }}">why you should still invest in SEO</a>.</p>

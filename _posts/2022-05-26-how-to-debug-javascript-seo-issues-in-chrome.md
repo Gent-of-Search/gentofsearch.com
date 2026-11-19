@@ -4,6 +4,10 @@ description: "In this guide, I will talk about how to use a very simple manual t
 date: 2022-05-26
 category: Technical SEO
 read_time: "6 min read"
+image: /assets/blog/debug-js-share-card.png
+image_width: 2400
+image_height: 1254
+image_alt: "How to debug JavaScript SEO issues in five steps: find the right page, grab Google's rendered HTML, load it in Chrome, compare with the live page, and find what's missing"
 ---
 
 <p>I have talked about <a href="{{ '/blog/chrome-googlebot-simulator/' | relative_url }}">how to simulate the Googlebot crawler</a> to debug crawling and indexing issues.</p>
