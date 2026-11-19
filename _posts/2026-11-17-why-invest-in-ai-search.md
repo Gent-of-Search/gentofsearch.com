@@ -41,7 +41,7 @@ read_time: "13 min read"
 </ul>
 <p>ChatGPT alone passed <strong>900 million weekly users</strong> in February 2026, according to OpenAI.</p>
 <figure>
-  <img src="{{ '/assets/blog/why-invest-ai-search-chatgpt-monthly-visits.png' | relative_url }}" width="1400" height="800" alt="Line chart: chatgpt.com monthly web visits in billions, rising from zero in 2022 to about 6 billion in 2026" loading="lazy">
+  <img src="{{ '/assets/blog/why-invest-ai-search-chatgpt-monthly-visits.png' | relative_url }}" width="2000" height="1120" alt="Line chart: chatgpt.com monthly web visits in billions, rising from zero in 2022 to about 6 billion in 2026" loading="lazy">
   <figcaption class="source">Source: Gent of Search chart using <a href="https://www.similarweb.com/blog/research/market-research/most-visited-websites/" target="_blank" rel="noopener">Similarweb</a> estimates for chatgpt.com, 2022 to 2026.</figcaption>
 </figure>
 <p>But it's not just ChatGPT anymore. <a href="https://aisearch.similarweb.com/blog/gen-ai-stats/" target="_blank" rel="noopener">Similarweb's 2026 Generative AI Landscape</a> shows visits to AI tools grew 70% year on year, to 9.5 billion a month. And the market is splitting:</p>
@@ -90,7 +90,7 @@ read_time: "13 min read"
 <p>SparkToro <a href="https://sparktoro.com/blog/we-analyzed-11800-chatgpt-prompts-from-12000-users-to-answer-how-do-americans-use-ai-tools-in-2026/" target="_blank" rel="noopener">analysed 118,163 ChatGPT prompts</a> from 12,321 US users in 2026. Only 6.9% involved researching a brand to buy from, against over 15% of Google searches.</p>
 <p>Rand "Yeehaw" Fishkin estimates people make buying-research searches on Google at 16 times or more the rate they do on ChatGPT.</p>
 <figure>
-  <img src="{{ '/assets/blog/why-invest-ai-search-google-vs-chatgpt-buying-research.png' | relative_url }}" width="1400" height="800" alt="Two bar charts. Share of queries researching a brand to buy from: Google 15%+, ChatGPT 6.9%. Volume of buying-research queries with ChatGPT as 1x: Google 16x+" loading="lazy">
+  <img src="{{ '/assets/blog/why-invest-ai-search-google-vs-chatgpt-buying-research.png' | relative_url }}" width="2000" height="1280" alt="Two bar charts. Share of queries researching a brand to buy from: Google 15%+, ChatGPT 6.9%. Volume of buying-research queries with ChatGPT as 1x: Google 16x+" loading="lazy">
   <figcaption class="source">Source: Gent of Search chart using data from Rand Fishkin, <a href="https://sparktoro.com/blog/we-analyzed-11800-chatgpt-prompts-from-12000-users-to-answer-how-do-americans-use-ai-tools-in-2026/" target="_blank" rel="noopener">SparkToro</a>, November 2026. 118,163 ChatGPT prompts from 12,321 US users, compared with 332 million Google searches.</figcaption>
 </figure>
 <p>The shortlist effect is real. It matters most in considered purchases. But buyers still check their answers on Google.</p>
