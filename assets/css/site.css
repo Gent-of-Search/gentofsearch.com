@@ -326,3 +326,4 @@ img { max-width: 100%; }
 .article blockquote.takeaway ul { margin:0; padding-left:20px; }
 .article blockquote.takeaway li { margin:0 0 10px; }
 .article blockquote.takeaway li:last-child { margin-bottom:0; }
+.article figure.embed iframe { display:block; width:100%; aspect-ratio:16 / 9; height:auto; border:0; border-radius:12px; background:#000; box-shadow:0 5px 40px rgba(0,0,0,0.12); }
