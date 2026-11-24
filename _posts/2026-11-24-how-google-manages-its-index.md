@@ -1,5 +1,5 @@
 ---
-title: "How Google Manages Its Index"
+title: "SearchNorwichXL: How Google Manages Its Index"
 description: "My SearchNorwichXL 2026 talk on how Google's index works, how page quality is measured, and why pages drop out of the index. Video, slides and full transcript."
 date: 2026-11-24
 category: Indexing
